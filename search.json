@@ -1,0 +1,251 @@
+[
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Lernmaterialien",
+    "section": "",
+    "text": "folgen…",
+    "crumbs": [
+      "Lernmaterialien",
+      "Ressourcen"
+    ]
+  },
+  {
+    "objectID": "goals.html",
+    "href": "goals.html",
+    "title": "Lernziele",
+    "section": "",
+    "text": "In diesem Modul lernt ihr:\n\nDaten aus unterschiedlichen Sportbereichen mit Hilfe von Programmiercode zu analysieren\ndie Grundlagen von fortgeschrittenen statitischen Verfahren (auch Machine Learning und Deep Learning)\nDie Prinzipien und praktische Umsetzung erfolgreicher Datenvisualisierung\nPotenziale und Limitationen komplexer Modelle, wie etwa KI, aus technischer und ethischer Sicht zu diskutieren\n\nFür mehr Details, findet ihr hier das aktuelle Modulhandbuch: PDF",
+    "crumbs": [
+      "Informationen zum Modul",
+      "Lernziele"
+    ]
+  },
+  {
+    "objectID": "requirements.html",
+    "href": "requirements.html",
+    "title": "Rahmenbedingungen",
+    "section": "",
+    "text": "Um am Modul teilnehmen zu können, müssen folgende Voraussetzungen erfüllt sein:\n\nInsgesamt fünf Module aus BAS und SQ abgeschlossen (siehe Zulassungsvoraussetzungen für die PE)\nWir empfehlen dringend, dass ihr das Modul SQ3 bereits abgeschlossen habt\nIm Rahmen der Veranstaltung benötigt ihr einen eigenen Laptop mit Administratorrechten (um Software installieren zu können). Ein Tablet reicht nicht aus. Kontaktiert uns bitte im Vorfeld, wenn ihr keinen eigenen Laptop habt und dennoch am Modul teilnehmen möchtet.",
+    "crumbs": [
+      "Informationen zum Modul",
+      "Rahmenbedingungen"
+    ]
+  },
+  {
+    "objectID": "requirements.html#voraussetzungen",
+    "href": "requirements.html#voraussetzungen",
+    "title": "Rahmenbedingungen",
+    "section": "",
+    "text": "Um am Modul teilnehmen zu können, müssen folgende Voraussetzungen erfüllt sein:\n\nInsgesamt fünf Module aus BAS und SQ abgeschlossen (siehe Zulassungsvoraussetzungen für die PE)\nWir empfehlen dringend, dass ihr das Modul SQ3 bereits abgeschlossen habt\nIm Rahmen der Veranstaltung benötigt ihr einen eigenen Laptop mit Administratorrechten (um Software installieren zu können). Ein Tablet reicht nicht aus. Kontaktiert uns bitte im Vorfeld, wenn ihr keinen eigenen Laptop habt und dennoch am Modul teilnehmen möchtet.",
+    "crumbs": [
+      "Informationen zum Modul",
+      "Rahmenbedingungen"
+    ]
+  },
+  {
+    "objectID": "requirements.html#teilnahme",
+    "href": "requirements.html#teilnahme",
+    "title": "Rahmenbedingungen",
+    "section": "Teilnahme",
+    "text": "Teilnahme\nIn den drei Seminarveranstaltungen des Moduls gibt es keine Anwesenheitspflicht. Bei dem Modul handelt es sich um ein Wahlmodul und ihr seid freiwillig hier. Wir versuchen die Einheiten so zu gestalten, dass ihr bestmöglich im Rahmen der Veranstaltung lernen könnt.",
+    "crumbs": [
+      "Informationen zum Modul",
+      "Rahmenbedingungen"
+    ]
+  },
+  {
+    "objectID": "exams.html",
+    "href": "exams.html",
+    "title": "Prüfungen",
+    "section": "",
+    "text": "Im Rahmen des Moduls sind zwei benotete Prüfungen zu absolvieren:\n\nEin Kurzvortrag (5 min Vortrag + 10 min Diskussion) in dem die Methodik und Ergebnisse einer selbstständig durchgeführten Datenanalyse in 2er-Teams präsentiert werden\nAbgabe einer Visulisierung inklusive",
+    "crumbs": [
+      "Informationen zum Modul",
+      "Prüfungen"
+    ]
+  },
+  {
+    "objectID": "exams.html#modulprüfungen",
+    "href": "exams.html#modulprüfungen",
+    "title": "Prüfungen",
+    "section": "",
+    "text": "Im Rahmen des Moduls sind zwei benotete Prüfungen zu absolvieren:\n\nEin Kurzvortrag (5 min Vortrag + 10 min Diskussion) in dem die Methodik und Ergebnisse einer selbstständig durchgeführten Datenanalyse in 2er-Teams präsentiert werden\nAbgabe einer Visulisierung inklusive",
+    "crumbs": [
+      "Informationen zum Modul",
+      "Prüfungen"
+    ]
+  },
+  {
+    "objectID": "exams.html#vorgaben",
+    "href": "exams.html#vorgaben",
+    "title": "Prüfungen",
+    "section": "Vorgaben",
+    "text": "Vorgaben",
+    "crumbs": [
+      "Informationen zum Modul",
+      "Prüfungen"
+    ]
+  },
+  {
+    "objectID": "exams.html#bewertungskriterien",
+    "href": "exams.html#bewertungskriterien",
+    "title": "Prüfungen",
+    "section": "Bewertungskriterien",
+    "text": "Bewertungskriterien",
+    "crumbs": [
+      "Informationen zum Modul",
+      "Prüfungen"
+    ]
+  },
+  {
+    "objectID": "ai.html",
+    "href": "ai.html",
+    "title": "KI-Nutzung",
+    "section": "",
+    "text": "In diesem Modul ist die Nutzung von künstlicher Intelligenz (KI) zur Bearbeitung von (Prüfungs-)aufgaben ausdrücklich erlaubt. Wir sind realistisch und sehen, dass KI aus dem Studien- und Arbeitsalltag nicht mehr wegzudenken ist. Daher möchten wir euch dabei unterstützen, KI und KI-basierte Ergebnisse besser zu nutzen, verstehen, und beurteilen zu können.",
+    "crumbs": [
+      "Informationen zum Modul",
+      "KI-Nutzung"
+    ]
+  },
+  {
+    "objectID": "ai.html#generelle-erlaubnis",
+    "href": "ai.html#generelle-erlaubnis",
+    "title": "KI-Nutzung",
+    "section": "",
+    "text": "In diesem Modul ist die Nutzung von künstlicher Intelligenz (KI) zur Bearbeitung von (Prüfungs-)aufgaben ausdrücklich erlaubt. Wir sind realistisch und sehen, dass KI aus dem Studien- und Arbeitsalltag nicht mehr wegzudenken ist. Daher möchten wir euch dabei unterstützen, KI und KI-basierte Ergebnisse besser zu nutzen, verstehen, und beurteilen zu können.",
+    "crumbs": [
+      "Informationen zum Modul",
+      "KI-Nutzung"
+    ]
+  },
+  {
+    "objectID": "ai.html#ki-in-der-lehre-im-modul",
+    "href": "ai.html#ki-in-der-lehre-im-modul",
+    "title": "KI-Nutzung",
+    "section": "KI in der Lehre im Modul",
+    "text": "KI in der Lehre im Modul\nWir selbst setzen für unserer Lehre in diesem Modul auf KI. Im Rahmen eines durch die “Lehrförderung für die Akademische Zukunftsfähigkeit” bewilligten Projektes erstellen wir Übungsaufgaben zur eigenständigen Bearbeitung, zu denen ihr ein unmittelbares und individuelles KI-generiertes Feedback erhaltet. Dazu greifen wir auf eine lokales KI-System zurück, welches ihr auf euren Laptop installiert. Wie das alles geht, lernt ihr im Rahmen des Moduls.\nZudem hilft uns KI in Teilen bei der Erstellung von Lehrinhalten und Übungsaufgaben. So kann es etwa sein, dass der zugrundeliegende Programmiercode für die Übungsaufgabe, oder einzelne Folien die wir präsentieren mit Hilfe von KI-System erstellt wurden. Bei der Bewertungen von Studierendenleistungen nutzen wir keine KI!",
+    "crumbs": [
+      "Informationen zum Modul",
+      "KI-Nutzung"
+    ]
+  },
+  {
+    "objectID": "ai.html#datenschutz-it-sicherheit-ki-richtlinien",
+    "href": "ai.html#datenschutz-it-sicherheit-ki-richtlinien",
+    "title": "KI-Nutzung",
+    "section": "Datenschutz, IT-Sicherheit, KI-Richtlinien",
+    "text": "Datenschutz, IT-Sicherheit, KI-Richtlinien\nFür die Bearbeitung der Übungsaufgaben benötigt ihr ein lokales KI-System (Ollama). Diese Open-Source Software ist kostenlos und kann ohne Anmeldung installiert und genutzt werden. Da es sich um ein lokales KI-System handelt, verbleiben alle eure Daten und Eingaben auf eurem Gerät und werden nicht geteilt. Darüber hinaus könnt ihr selbstverständlich auch Online-Tools kommerzieller Anbieter nutzen. Dies wird jedoch weder von uns erwartet noch ist es für das Modul erforderlich. Bitte beachtet bei allen Tätigkeiten die Einhaltung der aktuell gültigen KI-Richtlinien unserer Universität.",
+    "crumbs": [
+      "Informationen zum Modul",
+      "KI-Nutzung"
+    ]
+  },
+  {
+    "objectID": "ai.html#ki-in-prüfungsleistungen",
+    "href": "ai.html#ki-in-prüfungsleistungen",
+    "title": "KI-Nutzung",
+    "section": "KI in Prüfungsleistungen",
+    "text": "KI in Prüfungsleistungen\nIhr dürft ausdrücklich KI im Rahmen der Prüfungsleistungen des Moduls benutzen, sofern ihr transparent macht welche Tools ihr für welche Zwecke genutzt habt. Beachtet jedoch, dass wir gezielt Prüfungsformate verwenden, bei denen wir davon ausgehen, dass die zentrale Leistung nicht von einer KI abgenommen werden kann. Beim Vortrag bedeutet dass, das wir in der Bewertung einen besonderen Fokus auf die Diskussion legen. Ihr sollten alle vorgestellten Inhalte soweit verstanden haben, dass ihr in der Lage seid sie kritisch in der Gruppe zu verteidigen und zu diskutieren. Bei der Abgabe der Visualisierung handelt es sich in erster Linie um eine kreative Aufgabe, die nur bedingt von einer KI erfüllt werden kann. Zudem legen wir hier großen Wert auf die Reproduzierbarkeit der Abgabe, dass heißt wir erwarten, dass wir mit Hilfe des abgegebenen Codes die Visualisierung erfolgreich auf unseren eigenen Geräten erstellen können. Auch dies erfordert bei der Erstellung der Abgabe die Anwendung eigener erlernter Kompetenzen über die Nutzung von KI hinaus.",
+    "crumbs": [
+      "Informationen zum Modul",
+      "KI-Nutzung"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "PE 1.22 - Fortgeschrittene Datenanalyse, Statistik und Visualisierung",
+    "section": "",
+    "text": "Auf dieser Website findet ihr alle Informationen rund um das Bachelormodul PE 1.22 an der Deutschen Sporthochschule Köln.\nIn diesem Modul lernt ihr\n\neigene Datenanalysen zu programmieren\ndie statistischen Grundlagen hinter Machine Learning und Deep Learning\nDaten und Auswertungen ansprechend zu visualisieren\nDatenanalyse und KI auch aus ethischer Sicht kritisch zu beurteilen\n\nDas nächstes Mal angeboten wird die PE 1.22 im Sommersemester 2026."
+  },
+  {
+    "objectID": "team.html",
+    "href": "team.html",
+    "title": "Dozierende",
+    "section": "",
+    "text": "Name\nE-Mail\n\n\n\n\n\nBjörn Braunstein\nDozent\nbraunstein[at]dshs-koeln.de\n\n\n\nSimon Nolte\nDozent, Modulleiter\ns.nolte[at]dshs-koeln.de\n\n\n\nRobert Rein\nDozent\nr.rein[at]dshs-koeln.de\n\n\n\ntba\nWissenschaftliche Hilfkraft",
+    "crumbs": [
+      "Informationen zum Modul",
+      "Dozierende"
+    ]
+  },
+  {
+    "objectID": "setup.html",
+    "href": "setup.html",
+    "title": "Setup",
+    "section": "",
+    "text": "Um an der Veranstaltung teilzunehmen müsst ihr zunächst mehrere Softwareprogramme installieren. Bitte absolviert daher vor der ersten Veranstaltung folgende Schritte:\n\nLadet euch die Programmiersprache R herunter: Download R\nLadet euch im Anschluss die Oberfläche Positron herunter: Download Positron\nLadet euch außerdem das lokale KI-System Ollama herunter: Download Ollama",
+    "crumbs": [
+      "Lernmaterialien",
+      "Setup"
+    ]
+  },
+  {
+    "objectID": "setup.html#erforderliche-software",
+    "href": "setup.html#erforderliche-software",
+    "title": "Setup",
+    "section": "",
+    "text": "Um an der Veranstaltung teilzunehmen müsst ihr zunächst mehrere Softwareprogramme installieren. Bitte absolviert daher vor der ersten Veranstaltung folgende Schritte:\n\nLadet euch die Programmiersprache R herunter: Download R\nLadet euch im Anschluss die Oberfläche Positron herunter: Download Positron\nLadet euch außerdem das lokale KI-System Ollama herunter: Download Ollama",
+    "crumbs": [
+      "Lernmaterialien",
+      "Setup"
+    ]
+  },
+  {
+    "objectID": "setup.html#r-packages",
+    "href": "setup.html#r-packages",
+    "title": "Setup",
+    "section": "R Packages",
+    "text": "R Packages\nFür das Modul benötigt ihr eine Reihe von Erweiterungen (packages) für R. Diese könnt ihr direkt mit Hilfe von R herunterladen. Öffnet dazu zunächst Positron und geht dort auf die Konsole. Hier gebt ihr folgenden Befehl ein:\ninstall.packages()",
+    "crumbs": [
+      "Lernmaterialien",
+      "Setup"
+    ]
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Semesterplan",
+    "section": "",
+    "text": "Tag\nZeit\nRaum\n\n\n\n\nSeminar 1\nDienstag\n12:45 - 14:00\ntba\n\n\nSeminar 2\nMittwoch\n14:15 - 16:00\ntba\n\n\nSeminar 3\nDonnerstag\n16:15 - 18:00\ntba",
+    "crumbs": [
+      "Informationen zum Modul",
+      "Semesterplan"
+    ]
+  },
+  {
+    "objectID": "schedule.html#seminarzeiten",
+    "href": "schedule.html#seminarzeiten",
+    "title": "Semesterplan",
+    "section": "",
+    "text": "Tag\nZeit\nRaum\n\n\n\n\nSeminar 1\nDienstag\n12:45 - 14:00\ntba\n\n\nSeminar 2\nMittwoch\n14:15 - 16:00\ntba\n\n\nSeminar 3\nDonnerstag\n16:15 - 18:00\ntba",
+    "crumbs": [
+      "Informationen zum Modul",
+      "Semesterplan"
+    ]
+  },
+  {
+    "objectID": "schedule.html#semesterplan",
+    "href": "schedule.html#semesterplan",
+    "title": "Semesterplan",
+    "section": "Semesterplan",
+    "text": "Semesterplan\n\n\n\nWoche\nInhalt\nDetails\nDozent\n\n\n\n\n1\n\n\n\n\n\n2\n\n\n\n\n\n3\n\n\n\n\n\n4\n\n\n\n\n\n5\n\n\n\n\n\n6\n\n\n\n\n\n7\n\n\n\n\n\n8\n\n\n\n\n\n9\n\n\n\n\n\n10\n\n\n\n\n\n11\n\n\n\n\n\n12\n\n\n\n\n\n13",
+    "crumbs": [
+      "Informationen zum Modul",
+      "Semesterplan"
+    ]
+  },
+  {
+    "objectID": "datasets.html",
+    "href": "datasets.html",
+    "title": "Datensätze",
+    "section": "",
+    "text": "Hier eine Übersicht über Datensätze die ihr verwenden könnt:",
+    "crumbs": [
+      "Lernmaterialien",
+      "Datensätze"
+    ]
+  }
+]
