@@ -1,0 +1,35 @@
+{
+  "about.qmd": {
+    "about.html": "ec796f2d"
+  },
+  "index.qmd": {
+    "index.html": "39af4f6f"
+  },
+  "ai.qmd": {
+    "ai.html": "09737c0e"
+  },
+  "goals.qmd": {
+    "goals.html": "19a68406"
+  },
+  "schedule.qmd": {
+    "schedule.html": "49cbb565"
+  },
+  "team.qmd": {
+    "team.html": "cd749a56"
+  },
+  "exams.qmd": {
+    "exams.html": "d475adb1"
+  },
+  "resources.qmd": {
+    "resources.html": "618418b8"
+  },
+  "datasets.qmd": {
+    "datasets.html": "cd14fc6b"
+  },
+  "setup.qmd": {
+    "setup.html": "5e04b8e2"
+  },
+  "requirements.qmd": {
+    "requirements.html": "9047c637"
+  }
+}

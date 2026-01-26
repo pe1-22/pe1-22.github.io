@@ -1,0 +1,12 @@
+---
+title: "Lernziele"
+---
+
+In diesem Modul lernt ihr:
+
+* Daten aus unterschiedlichen Sportbereichen mit Hilfe von Programmiercode zu analysieren
+* die Grundlagen von fortgeschrittenen statitischen Verfahren (auch Machine Learning und Deep Learning)
+* Die Prinzipien und praktische Umsetzung erfolgreicher Datenvisualisierung
+* Potenziale und Limitationen komplexer Modelle, wie etwa KI, aus technischer und ethischer Sicht zu diskutieren
+
+Für mehr Details, findet ihr hier das aktuelle Modulhandbuch: [**PDF**](/modulhandbuch.pdf "Modulhandbuch PDF")

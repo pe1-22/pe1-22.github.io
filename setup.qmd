@@ -1,0 +1,17 @@
+---
+title: "Setup"
+---
+
+## Erforderliche Software
+
+Um an der Veranstaltung teilzunehmen müsst ihr zunächst mehrere Softwareprogramme installieren. Bitte absolviert daher **vor** der ersten Veranstaltung folgende Schritte:
+
+1. Ladet euch die Programmiersprache *R* herunter: [Download R](https://cran.uni-muenster.de/)
+2. Ladet euch im Anschluss die Oberfläche *Positron* herunter: [Download Positron](https://positron.posit.co/install.html)
+3. Ladet euch außerdem das lokale KI-System *Ollama* herunter: [Download Ollama](https://ollama.com/)
+
+## R Packages
+
+Für das Modul benötigt ihr eine Reihe von Erweiterungen (packages) für R. Diese könnt ihr direkt mit Hilfe von R herunterladen. Öffnet dazu zunächst Positron und geht dort auf die Konsole. Hier gebt ihr folgenden Befehl ein:
+
+`install.packages()`

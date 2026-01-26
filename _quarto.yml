@@ -1,0 +1,71 @@
+project:
+  type: website
+
+website:
+  title: "PE1.22"
+  description: "Website für PE1.22 - Fortgeschrittene Datenanalyse, Statistik und Visualisierung"
+  page-navigation: true
+  bread-crumbs: false
+
+  repo-url: https://github.com/smnnlt/pe122
+  repo-actions: none
+  
+  page-footer: 
+    background: "#1A2833"
+    left: |
+      &copy; Copyright 2026, Björn Braunstein, Simon Nolte, Robert Rein
+    right: |
+      View source code on [GitHub](https://github.com/smnnlt/pe122)  
+
+  sidebar:
+    background: "#1A2833"
+    foreground: "#FFFFFF"
+    logo: "images/logo_bg.png"
+    # tools: 
+    #   - icon: github
+    #     href: https://github.com/smnnlt/pe122  
+    align: center
+    style: docked
+    search: true
+    pinned: false
+    collapse-level: 2
+    contents: 
+      - section: "Informationen zum Modul"
+        contents:
+          - href: goals.qmd
+            text: "Lernziele"
+          - href: schedule.qmd
+            text: "Semesterplan"
+          - href: requirements.qmd
+            text: "Rahmenbedingungen"
+          - href: team.qmd
+            text: "Dozierende"
+          - href: exams.qmd
+            text: "Prüfungen"
+          - href: ai.qmd
+            text: "KI-Nutzung"
+      - section: "Lernmaterialien"
+        contents:
+          - href: setup.qmd
+            text: "Setup"
+          - href: datasets.qmd
+            text: "Datensätze"
+          - href: resources.qmd
+            text: "Ressourcen"
+
+
+format:
+  html:
+    theme:
+      light: [cosmo, theme.scss]
+      # dark: [cosmo, theme-dark.scss]
+    mainfont: "Atkinson Hyperlegible"
+    code-copy: true
+    code-overflow: wrap
+    toc: true
+    toc-title: "Inhalt"
+execute:
+  freeze: auto
+
+
+

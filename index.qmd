@@ -1,0 +1,15 @@
+---
+title: "PE 1.22 - Fortgeschrittene Datenanalyse, Statistik und Visualisierung"
+---
+
+Auf dieser Website findet ihr alle Informationen rund um das Bachelormodul PE 1.22 an der Deutschen Sporthochschule Köln.
+
+In diesem Modul lernt ihr
+
+* eigene Datenanalysen zu programmieren
+* die statistischen Grundlagen hinter Machine Learning und Deep Learning
+* Daten und Auswertungen ansprechend zu visualisieren
+* Datenanalyse und KI auch aus ethischer Sicht kritisch zu beurteilen
+
+Das nächstes Mal angeboten wird die PE 1.22 im **Sommersemester 2026**.
+
