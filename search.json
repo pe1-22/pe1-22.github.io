@@ -15,7 +15,7 @@
     "href": "goals.html",
     "title": "Lernziele",
     "section": "",
-    "text": "In diesem Modul lernt ihr:\n\nDaten aus unterschiedlichen Sportbereichen mit Hilfe von Programmiercode zu analysieren\ndie Grundlagen von fortgeschrittenen statitischen Verfahren (auch Machine Learning und Deep Learning)\nDie Prinzipien und praktische Umsetzung erfolgreicher Datenvisualisierung\nPotenziale und Limitationen komplexer Modelle, wie etwa KI, aus technischer und ethischer Sicht zu diskutieren\n\nFür mehr Details, findet ihr hier das aktuelle Modulhandbuch: PDF",
+    "text": "In diesem Modul lernt ihr:\n\nDaten aus unterschiedlichen Sportbereichen mit Hilfe von Programmiercode zu analysieren.\ndie Grundlagen von fortgeschrittenen statistischen Verfahren (auch Machine Learning und Deep Learning).\nDie Prinzipien und praktische Umsetzung erfolgreicher Visualisierung und Kommunikation von Daten.\nPotenziale und Limitationen komplexer Modelle, wie etwa KI, aus technischer und ethischer Sicht zu diskutieren.\n\nFür mehr Details zu den Zielen der Veranstaltungen findet ihr hier das aktuelle Modulhandbuch: PDF.",
     "crumbs": [
       "Informationen zum Modul",
       "Lernziele"
@@ -44,6 +44,17 @@
     ]
   },
   {
+    "objectID": "requirements.html#anmeldung",
+    "href": "requirements.html#anmeldung",
+    "title": "Rahmenbedingungen",
+    "section": "Anmeldung",
+    "text": "Anmeldung\nDie Belegung erfolgt regulär über mySpoho innerhalb der LVB-Phasen. Eine Teilnahme auf weißen Schein oder ein Nachrücken in der ersten Semesterwoche ist in der Regel möglich, bitte kontaktiert uns hierzu aber im Vorfeld per E-Mail.",
+    "crumbs": [
+      "Informationen zum Modul",
+      "Rahmenbedingungen"
+    ]
+  },
+  {
     "objectID": "requirements.html#teilnahme",
     "href": "requirements.html#teilnahme",
     "title": "Rahmenbedingungen",
@@ -59,7 +70,7 @@
     "href": "exams.html",
     "title": "Prüfungen",
     "section": "",
-    "text": "Im Rahmen des Moduls sind zwei benotete Prüfungen zu absolvieren:\n\nEin Kurzvortrag (5 min Vortrag + 10 min Diskussion) in dem die Methodik und Ergebnisse einer selbstständig durchgeführten Datenanalyse in 2er-Teams präsentiert werden\nAbgabe einer Visulisierung inklusive",
+    "text": "Im Rahmen des Moduls sind zwei benotete Prüfungen zu absolvieren:\n\nEin Kurzvortrag (5 min Vortrag + 10 min Diskussion) in dem die Methodik und Ergebnisse einer selbstständig durchgeführten Datenanalyse in 2er-Teams präsentiert werden\nAbgabe einer Visulisierung inklusive Code zur Reproduktion",
     "crumbs": [
       "Informationen zum Modul",
       "Prüfungen"
@@ -70,7 +81,7 @@
     "href": "exams.html#modulprüfungen",
     "title": "Prüfungen",
     "section": "",
-    "text": "Im Rahmen des Moduls sind zwei benotete Prüfungen zu absolvieren:\n\nEin Kurzvortrag (5 min Vortrag + 10 min Diskussion) in dem die Methodik und Ergebnisse einer selbstständig durchgeführten Datenanalyse in 2er-Teams präsentiert werden\nAbgabe einer Visulisierung inklusive",
+    "text": "Im Rahmen des Moduls sind zwei benotete Prüfungen zu absolvieren:\n\nEin Kurzvortrag (5 min Vortrag + 10 min Diskussion) in dem die Methodik und Ergebnisse einer selbstständig durchgeführten Datenanalyse in 2er-Teams präsentiert werden\nAbgabe einer Visulisierung inklusive Code zur Reproduktion",
     "crumbs": [
       "Informationen zum Modul",
       "Prüfungen"
@@ -103,7 +114,7 @@
     "href": "ai.html",
     "title": "KI-Nutzung",
     "section": "",
-    "text": "In diesem Modul ist die Nutzung von künstlicher Intelligenz (KI) zur Bearbeitung von (Prüfungs-)aufgaben ausdrücklich erlaubt. Wir sind realistisch und sehen, dass KI aus dem Studien- und Arbeitsalltag nicht mehr wegzudenken ist. Daher möchten wir euch dabei unterstützen, KI und KI-basierte Ergebnisse besser zu nutzen, verstehen, und beurteilen zu können.",
+    "text": "In diesem Modul ist die Nutzung von künstlicher Intelligenz (KI) zur Bearbeitung von (Prüfungs-)aufgaben ausdrücklich erlaubt. Wir sind realistisch und sehen, dass KI aus dem Studien- und Arbeitsalltag nicht mehr wegzudenken ist. Daher möchten wir euch dabei unterstützen, KI und KI-basierte Ergebnisse besser nutzen, verstehen, und beurteilen zu können.",
     "crumbs": [
       "Informationen zum Modul",
       "KI-Nutzung"
@@ -114,7 +125,7 @@
     "href": "ai.html#generelle-erlaubnis",
     "title": "KI-Nutzung",
     "section": "",
-    "text": "In diesem Modul ist die Nutzung von künstlicher Intelligenz (KI) zur Bearbeitung von (Prüfungs-)aufgaben ausdrücklich erlaubt. Wir sind realistisch und sehen, dass KI aus dem Studien- und Arbeitsalltag nicht mehr wegzudenken ist. Daher möchten wir euch dabei unterstützen, KI und KI-basierte Ergebnisse besser zu nutzen, verstehen, und beurteilen zu können.",
+    "text": "In diesem Modul ist die Nutzung von künstlicher Intelligenz (KI) zur Bearbeitung von (Prüfungs-)aufgaben ausdrücklich erlaubt. Wir sind realistisch und sehen, dass KI aus dem Studien- und Arbeitsalltag nicht mehr wegzudenken ist. Daher möchten wir euch dabei unterstützen, KI und KI-basierte Ergebnisse besser nutzen, verstehen, und beurteilen zu können.",
     "crumbs": [
       "Informationen zum Modul",
       "KI-Nutzung"
@@ -125,7 +136,7 @@
     "href": "ai.html#ki-in-der-lehre-im-modul",
     "title": "KI-Nutzung",
     "section": "KI in der Lehre im Modul",
-    "text": "KI in der Lehre im Modul\nWir selbst setzen für unserer Lehre in diesem Modul auf KI. Im Rahmen eines durch die “Lehrförderung für die Akademische Zukunftsfähigkeit” bewilligten Projektes erstellen wir Übungsaufgaben zur eigenständigen Bearbeitung, zu denen ihr ein unmittelbares und individuelles KI-generiertes Feedback erhaltet. Dazu greifen wir auf eine lokales KI-System zurück, welches ihr auf euren Laptop installiert. Wie das alles geht, lernt ihr im Rahmen des Moduls.\nZudem hilft uns KI in Teilen bei der Erstellung von Lehrinhalten und Übungsaufgaben. So kann es etwa sein, dass der zugrundeliegende Programmiercode für die Übungsaufgabe, oder einzelne Folien die wir präsentieren mit Hilfe von KI-System erstellt wurden. Bei der Bewertungen von Studierendenleistungen nutzen wir keine KI!",
+    "text": "KI in der Lehre im Modul\nWir selbst setzen für unserer Lehre in diesem Modul auf KI. Im Rahmen eines durch die “Lehrförderung für die Akademische Zukunftsfähigkeit” bewilligten Projektes erstellen wir Übungsaufgaben zur eigenständigen Bearbeitung, zu denen ihr ein unmittelbares und individuelles KI-generiertes Feedback erhaltet. Dazu greifen wir auf ein lokales KI-System zurück, welches ihr auf euren Laptop installiert. Wie das alles geht, lernt ihr im Rahmen des Moduls.\nZudem hilft uns KI in Teilen bei der Erstellung von Lehrinhalten und Übungsaufgaben. So kann es etwa sein, dass der zugrundeliegende Programmiercode für manche Übungsaufgaben, oder einzelne Folien die wir präsentieren mit Hilfe von KI-System erstellt wurden. Bei der Bewertungen von Prüfungsleistungen nutzen wir keine KI!",
     "crumbs": [
       "Informationen zum Modul",
       "KI-Nutzung"
@@ -136,7 +147,7 @@
     "href": "ai.html#datenschutz-it-sicherheit-ki-richtlinien",
     "title": "KI-Nutzung",
     "section": "Datenschutz, IT-Sicherheit, KI-Richtlinien",
-    "text": "Datenschutz, IT-Sicherheit, KI-Richtlinien\nFür die Bearbeitung der Übungsaufgaben benötigt ihr ein lokales KI-System (Ollama). Diese Open-Source Software ist kostenlos und kann ohne Anmeldung installiert und genutzt werden. Da es sich um ein lokales KI-System handelt, verbleiben alle eure Daten und Eingaben auf eurem Gerät und werden nicht geteilt. Darüber hinaus könnt ihr selbstverständlich auch Online-Tools kommerzieller Anbieter nutzen. Dies wird jedoch weder von uns erwartet noch ist es für das Modul erforderlich. Bitte beachtet bei allen Tätigkeiten die Einhaltung der aktuell gültigen KI-Richtlinien unserer Universität.",
+    "text": "Datenschutz, IT-Sicherheit, KI-Richtlinien\nFür die Bearbeitung der Übungsaufgaben benötigt ihr ein lokales KI-System (Ollama). Diese Open-Source Software ist kostenlos und kann ohne Anmeldung installiert und genutzt werden. Da es sich um ein lokales KI-System handelt, verbleiben alle eure Daten und Eingaben auf eurem Gerät und werden nicht geteilt. Darüber hinaus könnt ihr bei Bedarf selbstverständlich auch Online-Tools kommerzieller Anbieter nutzen. Dies wird jedoch weder von uns erwartet noch ist es für das Modul erforderlich. Bitte beachtet bei allen Tätigkeiten die Einhaltung der aktuell gültigen KI-Richtlinien unserer Universität.",
     "crumbs": [
       "Informationen zum Modul",
       "KI-Nutzung"
@@ -147,7 +158,7 @@
     "href": "ai.html#ki-in-prüfungsleistungen",
     "title": "KI-Nutzung",
     "section": "KI in Prüfungsleistungen",
-    "text": "KI in Prüfungsleistungen\nIhr dürft ausdrücklich KI im Rahmen der Prüfungsleistungen des Moduls benutzen, sofern ihr transparent macht welche Tools ihr für welche Zwecke genutzt habt. Beachtet jedoch, dass wir gezielt Prüfungsformate verwenden, bei denen wir davon ausgehen, dass die zentrale Leistung nicht von einer KI abgenommen werden kann. Beim Vortrag bedeutet dass, das wir in der Bewertung einen besonderen Fokus auf die Diskussion legen. Ihr sollten alle vorgestellten Inhalte soweit verstanden haben, dass ihr in der Lage seid sie kritisch in der Gruppe zu verteidigen und zu diskutieren. Bei der Abgabe der Visualisierung handelt es sich in erster Linie um eine kreative Aufgabe, die nur bedingt von einer KI erfüllt werden kann. Zudem legen wir hier großen Wert auf die Reproduzierbarkeit der Abgabe, dass heißt wir erwarten, dass wir mit Hilfe des abgegebenen Codes die Visualisierung erfolgreich auf unseren eigenen Geräten erstellen können. Auch dies erfordert bei der Erstellung der Abgabe die Anwendung eigener erlernter Kompetenzen über die Nutzung von KI hinaus.",
+    "text": "KI in Prüfungsleistungen\nIhr dürft ausdrücklich KI im Rahmen der Prüfungsleistungen des Moduls benutzen, sofern ihr transparent macht welche Tools ihr für welche Zwecke genutzt habt. Beachtet jedoch, dass wir gezielt Prüfungsformate verwenden, bei denen wir davon ausgehen, dass die zentrale Leistung nicht von einer KI übernommen werden kann. Bei der Präsentation bedeutet dass, das wir in der Bewertung einen besonderen Fokus auf die Diskussion legen. Ihr sollten alle vorgestellten Inhalte soweit verstanden haben, dass ihr in der Lage seid sie kritisch vor der Gruppe zu verteidigen und zu diskutieren. Bei der Abgabe der Visualisierung handelt es sich in erster Linie um eine kreative Aufgabe, die nur bedingt von einer KI erfüllt werden kann. Zudem legen wir hier großen Wert auf die Reproduzierbarkeit der Abgabe. Das heißt, wir erwarten, dass wir mit Hilfe des abgegebenen Codes die Visualisierung erfolgreich auf unseren eigenen Geräten nachbauen können. Auch dies erfordert bei der Erstellung der Abgabe die Anwendung eigener erlernter Kompetenzen über die Nutzung von KI hinaus.",
     "crumbs": [
       "Informationen zum Modul",
       "KI-Nutzung"
@@ -158,7 +169,7 @@
     "href": "index.html",
     "title": "PE 1.22 - Fortgeschrittene Datenanalyse, Statistik und Visualisierung",
     "section": "",
-    "text": "Auf dieser Website findet ihr alle Informationen rund um das Bachelormodul PE 1.22 an der Deutschen Sporthochschule Köln.\nIn diesem Modul lernt ihr\n\neigene Datenanalysen zu programmieren\ndie statistischen Grundlagen hinter Machine Learning und Deep Learning\nDaten und Auswertungen ansprechend zu visualisieren\nDatenanalyse und KI auch aus ethischer Sicht kritisch zu beurteilen\n\nDas nächstes Mal angeboten wird die PE 1.22 im Sommersemester 2026."
+    "text": "Auf dieser Website findet ihr alle Informationen rund um das Bachelormodul PE 1.22 an der Deutschen Sporthochschule Köln.\nIn diesem Modul lernt ihr\n\neigene Datenanalysen zu programmieren\ndie statistischen Grundlagen hinter Machine Learning und Deep Learning\nDaten und Auswertungen ansprechend zu visualisieren\nDatenanalyse und KI auch aus ethischer Sicht kritisch zu beurteilen\n\nWir befassen uns in erster Linie mit Daten aus verschiedenen Bereichen des Sports (Leistungsdiagnostik, Ergebnisdaten, Sportökonomie, Gesundheit). Dabei habt ihr selbst die Möglichkeit eigene thematische Schwerpunkte zu setzen, indem ihr euch eigene Datensätze sucht oder eine Auswahl aus einem vorhandenen Pool von Datensätzen trefft.\nDas nächstes Mal angeboten wird die PE 1.22 im Sommersemester 2026."
   },
   {
     "objectID": "team.html",
@@ -209,7 +220,7 @@
     "href": "schedule.html",
     "title": "Semesterplan",
     "section": "",
-    "text": "Tag\nZeit\nRaum\n\n\n\n\nSeminar 1\nDienstag\n12:45 - 14:00\ntba\n\n\nSeminar 2\nMittwoch\n14:15 - 16:00\ntba\n\n\nSeminar 3\nDonnerstag\n16:15 - 18:00\ntba",
+    "text": "Tag\nZeit\nRaum\n\n\n\n\nSeminar 1\nDienstag\n12:15 - 14:00\nSR 50, IG2\n\n\nSeminar 2\nMittwoch\n14:15 - 16:00\nSR 02, HJZ\n\n\nSeminar 3\nDonnerstag\n16:15 - 18:00\nSR 95, Nawi-Medi",
     "crumbs": [
       "Informationen zum Modul",
       "Semesterplan"
@@ -220,7 +231,7 @@
     "href": "schedule.html#seminarzeiten",
     "title": "Semesterplan",
     "section": "",
-    "text": "Tag\nZeit\nRaum\n\n\n\n\nSeminar 1\nDienstag\n12:45 - 14:00\ntba\n\n\nSeminar 2\nMittwoch\n14:15 - 16:00\ntba\n\n\nSeminar 3\nDonnerstag\n16:15 - 18:00\ntba",
+    "text": "Tag\nZeit\nRaum\n\n\n\n\nSeminar 1\nDienstag\n12:15 - 14:00\nSR 50, IG2\n\n\nSeminar 2\nMittwoch\n14:15 - 16:00\nSR 02, HJZ\n\n\nSeminar 3\nDonnerstag\n16:15 - 18:00\nSR 95, Nawi-Medi",
     "crumbs": [
       "Informationen zum Modul",
       "Semesterplan"
@@ -242,7 +253,7 @@
     "href": "datasets.html",
     "title": "Datensätze",
     "section": "",
-    "text": "Hier eine Übersicht über Datensätze die ihr verwenden könnt:",
+    "text": "Hier eine Übersicht über Datensätze die ihr verwenden könnt:\nfolgt",
     "crumbs": [
       "Lernmaterialien",
       "Datensätze"
