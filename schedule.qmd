@@ -4,11 +4,11 @@ title: "Semesterplan"
 
 ## Seminarzeiten
 
-|           | Tag       | Zeit          | Raum   |
-|-----------|-----------|---------------|--------|
-| Seminar 1 | Dienstag  | 12:45 - 14:00 | tba    |
-| Seminar 2 | Mittwoch  | 14:15 - 16:00 | tba    |
-| Seminar 3 | Donnerstag| 16:15 - 18:00 | tba    |
+|           | Tag       | Zeit          | Raum             |
+|-----------|-----------|---------------|------------------|
+| Seminar 1 | Dienstag  | 12:15 - 14:00 | SR 50, IG2       |
+| Seminar 2 | Mittwoch  | 14:15 - 16:00 | SR 02, HJZ       |
+| Seminar 3 | Donnerstag| 16:15 - 18:00 | SR 95, Nawi-Medi |
 
 ## Semesterplan
 
