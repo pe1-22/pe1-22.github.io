@@ -31,5 +31,8 @@
   },
   "requirements.qmd": {
     "requirements.html": "9047c637"
+  },
+  "LICENSE.md": {
+    "LICENSE.html": "11e50b0c"
   }
 }
