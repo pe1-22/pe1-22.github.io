@@ -13,5 +13,7 @@ In diesem Modul lernt ihr
 
 Wir befassen uns in erster Linie mit Daten aus verschiedenen Bereichen des Sports (Leistungsdiagnostik, Ergebnisdaten, Sportökonomie, Gesundheit). Dabei habt ihr selbst die Möglichkeit eigene thematische Schwerpunkte zu setzen, indem ihr euch eigene Datensätze sucht oder eine Auswahl aus einem vorhandenen Pool von Datensätzen trefft.
 
+Ihr braucht keinerlei Vorkenntnisse im Programmieren um an diesem Modul teilzunehmen. Alle notwendigen Grundlagen werden zu Beginn des Moduls vermittelt. Das Modul ist so aufgebaut, dass ihr Schritt für Schritt an die Themen herangeführt werdet.
+
 Das nächstes Mal angeboten wird die PE 1.22 im **Sommersemester 2026**.
 

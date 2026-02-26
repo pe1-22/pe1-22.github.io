@@ -9,4 +9,8 @@ Im Rahmen des Moduls sind zwei benotete Prüfungen zu absolvieren:
 
 ## Vorgaben
 
+Die konkreten Vorgaben zu den Prüfungen (z.B. welche Datenanalyse, welche Visualisierung, etc.) werden bis zum Start des Semesters bekannt gegeben. Es wird aber auf jeden Fall möglich sein, die Prüfungen mit einem selbstgewählten Datensatz zu einem Themenbereich eurer Wahl durchzuführen.
+
 ## Bewertungskriterien
+
+Die konkreten Bewertungkriterien einschließlich des Punktesystem zur Bewertung der Prüfungen werden ebenfalls bis zum Start des Semesters bekannt gegeben.

@@ -4,28 +4,27 @@ title: "Semesterplan"
 
 ## Seminarzeiten
 
-|           | Tag       | Zeit          | Raum             |
-|-----------|-----------|---------------|------------------|
-| Seminar 1 | Dienstag  | 12:15 - 14:00 | SR 50, IG2       |
-| Seminar 2 | Mittwoch  | 14:15 - 16:00 | SR 02, HJZ       |
-| Seminar 3 | Donnerstag| 16:15 - 18:00 | SR 95, Nawi-Medi |
+|           | Tag        | Zeit          | Raum             |
+|-----------|------------|---------------|------------------|
+| Seminar 1 | Dienstag   | 12:15 - 14:00 | SR 50, IG2       |
+| Seminar 2 | Mittwoch   | 14:15 - 16:00 | SR 02, HJZ       |
+| Seminar 3 | Donnerstag | 16:15 - 18:00 | SR 95, Nawi-Medi |
 
 ## Semesterplan
 
 | Woche | Inhalt | Details | Dozent |
-|-------|--------|---------|--------|
-| 1     |        |         |        |
-| 2     |        |         |        |
-| 3     |        |         |        |
-| 4     |        |         |        |
-| 5     |        |         |        |
-| 6     |        |         |        |
-| 7     |        |         |        |
-| 8     |        |         |        |
-| 9     |        |         |        |
-| 10    |        |         |        |
-| 11    |        |         |        |
-| 12    |        |         |        |
-| 13    |        |         |        |
-
-
+|------------------|------------------|--------------------|------------------|
+| 1 | Einführung und Installation |  | RR (BB, SN) |
+| 2 | Grundlagen von R | Einführung in die Programmierung mit R: Pakete, Variablen, Datentypen, Skripte & Funktionen | RR |
+| 3 | Datenimport aus lokalen und remote Quellen, Datenverarbeitung | Laden von lokalen und remote Daten unterschiedlicher Formate mittels R; Webscraping; Datenprozessierung | RR |
+| 4 | Grafiken in R erstellen | Plots in R mit ggplot2 erstellen | RR |
+| 5 | lineares Modell | Grundlagen lineare Regression | SN |
+| 6 | multiple Regression | Regression mit mehreren Prädiktoren (auch kategorisch) | SN |
+| 7 | logistische Regression | Grundlagen logistische Regression | SN |
+| 8 | Machine Learning | Bias-Variance Tradeoff; Training/Testing bzw. Cross-Validation; Grundidee von ML | SN |
+| 9 | Deep Learning | Grundprinzipien von Deep Learning (Neural Networks) | SN |
+| 10 | Prinzipien der Datenvisualisierung | Grundprinzipien: Theoretical Background | BB |
+| 11 | Quarto - Einfaches Dokument | Einführung in Quarto inkl. bib file usability | BB |
+| 12 | Manuscripte/Essays in Quarto |  | BB |
+| 13 | Quarto als Dashboard |  | BB |
+| 14 | Prüfung |  | SN, BB, RR |

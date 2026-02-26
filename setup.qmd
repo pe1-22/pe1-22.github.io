@@ -15,3 +15,5 @@ Um an der Veranstaltung teilzunehmen müsst ihr zunächst mehrere Softwareprogra
 Für das Modul benötigt ihr eine Reihe von Erweiterungen (packages) für R. Diese könnt ihr direkt mit Hilfe von R herunterladen. Öffnet dazu zunächst Positron und geht dort auf die Konsole. Hier gebt ihr folgenden Befehl ein:
 
 `install.packages()`
+
+Die konkreten Vorgaben ergänzen wir hier in Kürze...
