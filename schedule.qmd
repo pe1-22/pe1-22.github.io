@@ -22,7 +22,7 @@ title: "Semesterplan"
 | 6 | multiple Regression | Regression mit mehreren Prädiktoren (auch kategorisch) | SN |
 | 7 | logistische Regression | Grundlagen logistische Regression | SN |
 | 8 | Machine Learning | Bias-Variance Tradeoff; Training/Testing bzw. Cross-Validation; Grundidee von ML | SN |
-| 9 | Deep Learning | Grundprinzipien von Deep Learning (Neural Networks) | SN |
+| 9 | Deep Learning & KI-Ethik | Grundprinzipien von Deep Learning (Neural Networks); Ethische Aspekte von ML & KI| SN |
 | 10 | Prinzipien der Datenvisualisierung | Grundprinzipien: Theoretical Background | BB |
 | 11 | Quarto - Einfaches Dokument | Einführung in Quarto inkl. bib file usability | BB |
 | 12 | Manuscripte/Essays in Quarto |  | BB |
