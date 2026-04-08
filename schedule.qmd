@@ -10,6 +10,15 @@ title: "Semesterplan"
 | Seminar 2 | Mittwoch   | 14:15 - 16:00 | SR 02, HJZ       |
 | Seminar 3 | Donnerstag | 16:15 - 18:00 | SR 95, Nawi-Medi |
 
+## Office Hours
+
+Sprechstunden bei Fragen, technischen Problemen, etc.
+
+| Tag        | Zeit          | Ort              |
+|------------|---------------|------------------|  
+| Mittwoch   | 16:00 - 17:00 | Raum 111, IG2    |
+| Donnerstag | 11:00 - 12:00 | Raum 111, IG2    |
+
 ## Semesterplan
 
 | Woche | Inhalt | Details | Dozent |
