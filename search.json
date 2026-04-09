@@ -1,46 +1,46 @@
 [
   {
-    "objectID": "exams.html",
-    "href": "exams.html",
-    "title": "Prüfungen",
+    "objectID": "requirements.html",
+    "href": "requirements.html",
+    "title": "Rahmenbedingungen",
     "section": "",
-    "text": "Im Rahmen des Moduls sind zwei benotete Prüfungen zu absolvieren:\n\nEin Kurzvortrag (5 min Vortrag + 10 min Diskussion) in dem die Methodik und Ergebnisse einer selbstständig durchgeführten Datenanalyse in 2er-Teams präsentiert werden\nAbgabe einer Dokumentation (Visualisierung inklusive Code zur Reproduktion).",
+    "text": "Um am Modul teilnehmen zu können, müssen folgende Voraussetzungen erfüllt sein:\n\nInsgesamt fünf Module aus BAS und SQ abgeschlossen (siehe Zulassungsvoraussetzungen für die PE)\nWir empfehlen dringend, dass ihr das Modul SQ3 bereits abgeschlossen habt\nIm Rahmen der Veranstaltung benötigt ihr einen eigenen Laptop mit Administratorrechten (um Software installieren zu können). Ein Tablet reicht nicht aus. Kontaktiert uns bitte im Vorfeld, wenn ihr keinen eigenen Laptop habt und dennoch am Modul teilnehmen möchtet.",
     "crumbs": [
       "Informationen zum Modul",
-      "Prüfungen"
+      "Rahmenbedingungen"
     ]
   },
   {
-    "objectID": "exams.html#modulprüfungen",
-    "href": "exams.html#modulprüfungen",
-    "title": "Prüfungen",
+    "objectID": "requirements.html#voraussetzungen",
+    "href": "requirements.html#voraussetzungen",
+    "title": "Rahmenbedingungen",
     "section": "",
-    "text": "Im Rahmen des Moduls sind zwei benotete Prüfungen zu absolvieren:\n\nEin Kurzvortrag (5 min Vortrag + 10 min Diskussion) in dem die Methodik und Ergebnisse einer selbstständig durchgeführten Datenanalyse in 2er-Teams präsentiert werden\nAbgabe einer Dokumentation (Visualisierung inklusive Code zur Reproduktion).",
+    "text": "Um am Modul teilnehmen zu können, müssen folgende Voraussetzungen erfüllt sein:\n\nInsgesamt fünf Module aus BAS und SQ abgeschlossen (siehe Zulassungsvoraussetzungen für die PE)\nWir empfehlen dringend, dass ihr das Modul SQ3 bereits abgeschlossen habt\nIm Rahmen der Veranstaltung benötigt ihr einen eigenen Laptop mit Administratorrechten (um Software installieren zu können). Ein Tablet reicht nicht aus. Kontaktiert uns bitte im Vorfeld, wenn ihr keinen eigenen Laptop habt und dennoch am Modul teilnehmen möchtet.",
     "crumbs": [
       "Informationen zum Modul",
-      "Prüfungen"
+      "Rahmenbedingungen"
     ]
   },
   {
-    "objectID": "exams.html#vorgaben",
-    "href": "exams.html#vorgaben",
-    "title": "Prüfungen",
-    "section": "Vorgaben",
-    "text": "Vorgaben\nDie konkreten Vorgaben zu den Prüfungen (z.B. welche Datenanalyse, welche Visualisierung, etc.) werden bis zum Start des Semesters bekannt gegeben. Es wird aber auf jeden Fall möglich sein, die Prüfungen mit einem selbstgewählten Datensatz zu einem Themenbereich eurer Wahl durchzuführen.",
+    "objectID": "requirements.html#anmeldung",
+    "href": "requirements.html#anmeldung",
+    "title": "Rahmenbedingungen",
+    "section": "Anmeldung",
+    "text": "Anmeldung\nDie Belegung erfolgt regulär über mySpoho innerhalb der LVB-Phasen. Eine Teilnahme auf weißen Schein oder ein Nachrücken in der ersten Semesterwoche ist in der Regel möglich, bitte kontaktiert uns hierzu aber im Vorfeld per E-Mail.",
     "crumbs": [
       "Informationen zum Modul",
-      "Prüfungen"
+      "Rahmenbedingungen"
     ]
   },
   {
-    "objectID": "exams.html#bewertungskriterien",
-    "href": "exams.html#bewertungskriterien",
-    "title": "Prüfungen",
-    "section": "Bewertungskriterien",
-    "text": "Bewertungskriterien\nDie konkreten Bewertungkriterien einschließlich des Punktesystem zur Bewertung der Prüfungen werden ebenfalls bis zum Start des Semesters bekannt gegeben.",
+    "objectID": "requirements.html#teilnahme",
+    "href": "requirements.html#teilnahme",
+    "title": "Rahmenbedingungen",
+    "section": "Teilnahme",
+    "text": "Teilnahme\nIn den drei Seminarveranstaltungen des Moduls gibt es keine Anwesenheitspflicht. Bei dem Modul handelt es sich um ein Wahlmodul und ihr seid freiwillig hier. Wir versuchen die Einheiten so zu gestalten, dass ihr bestmöglich im Rahmen der Veranstaltung lernen könnt.",
     "crumbs": [
       "Informationen zum Modul",
-      "Prüfungen"
+      "Rahmenbedingungen"
     ]
   },
   {
@@ -70,68 +70,6 @@
     "title": "GNU General Public License",
     "section": "",
     "text": "If you develop a new program, and you want it to be of the greatest possible use to the public, the best way to achieve this is to make it free software which everyone can redistribute and change under these terms.\nTo do so, attach the following notices to the program. It is safest to attach them to the start of each source file to most effectively state the exclusion of warranty; and each file should have at least the “copyright” line and a pointer to where the full notice is found.\n&lt;one line to give the program's name and a brief idea of what it does.&gt;\nCopyright (C) &lt;year&gt;  &lt;name of author&gt;\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.\nAlso add information on how to contact you by electronic and paper mail.\nIf the program does terminal interaction, make it output a short notice like this when it starts in an interactive mode:\n&lt;program&gt;  Copyright (C) &lt;year&gt;  &lt;name of author&gt;\nThis program comes with ABSOLUTELY NO WARRANTY; for details type 'show w'.\nThis is free software, and you are welcome to redistribute it\nunder certain conditions; type 'show c' for details.\nThe hypothetical commands show w and show c should show the appropriate parts of the General Public License. Of course, your program’s commands might be different; for a GUI interface, you would use an “about box”.\nYou should also get your employer (if you work as a programmer) or school, if any, to sign a “copyright disclaimer” for the program, if necessary. For more information on this, and how to apply and follow the GNU GPL, see &lt;http://www.gnu.org/licenses/&gt;.\nThe GNU General Public License does not permit incorporating your program into proprietary programs. If your program is a subroutine library, you may consider it more useful to permit linking proprietary applications with the library. If this is what you want to do, use the GNU Lesser General Public License instead of this License. But first, please read &lt;http://www.gnu.org/philosophy/why-not-lgpl.html&gt;."
-  },
-  {
-    "objectID": "setup.html",
-    "href": "setup.html",
-    "title": "Setup",
-    "section": "",
-    "text": "Um an der Veranstaltung teilzunehmen müsst ihr zunächst mehrere Softwareprogramme installieren. Bitte absolviert daher vor der ersten Veranstaltung folgende Schritte:\n\nLadet euch die Programmiersprache R herunter: Download R\nLadet euch im Anschluss die Oberfläche Positron herunter: Download Positron\nLadet euch außerdem das lokale KI-System Ollama herunter: Download Ollama",
-    "crumbs": [
-      "Lernmaterialien",
-      "Setup"
-    ]
-  },
-  {
-    "objectID": "setup.html#erforderliche-software",
-    "href": "setup.html#erforderliche-software",
-    "title": "Setup",
-    "section": "",
-    "text": "Um an der Veranstaltung teilzunehmen müsst ihr zunächst mehrere Softwareprogramme installieren. Bitte absolviert daher vor der ersten Veranstaltung folgende Schritte:\n\nLadet euch die Programmiersprache R herunter: Download R\nLadet euch im Anschluss die Oberfläche Positron herunter: Download Positron\nLadet euch außerdem das lokale KI-System Ollama herunter: Download Ollama",
-    "crumbs": [
-      "Lernmaterialien",
-      "Setup"
-    ]
-  },
-  {
-    "objectID": "setup.html#r-packages",
-    "href": "setup.html#r-packages",
-    "title": "Setup",
-    "section": "R Packages",
-    "text": "R Packages\nFür das Modul benötigt ihr eine Reihe von Erweiterungen (packages) für R. Diese könnt ihr direkt mit Hilfe von R herunterladen. Öffnet dazu zunächst Positron und geht dort auf die Konsole. Hier gebt ihr folgenden Befehl ein:\ninstall.packages(c(\"tidyverse\", \"remotes\", \"broom\", \"learnr\"))\nDie konkreten Vorgaben ergänzen wir hier in Kürze…",
-    "crumbs": [
-      "Lernmaterialien",
-      "Setup"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "PE 1.22 - Fortgeschrittene Datenanalyse, Statistik und Visualisierung",
-    "section": "",
-    "text": "Auf dieser Website findet ihr alle Informationen rund um das Bachelormodul PE 1.22 an der Deutschen Sporthochschule Köln.\nIn diesem Modul lernt ihr\n\neigene Datenanalysen zu programmieren\ndie statistischen Grundlagen hinter Machine Learning und Deep Learning\nDaten und Auswertungen ansprechend zu visualisieren\nDatenanalyse und KI auch aus ethischer Sicht kritisch zu beurteilen\n\nWir befassen uns in erster Linie mit Daten aus verschiedenen Bereichen des Sports (Leistungsdiagnostik, Ergebnisdaten, Sportökonomie, Gesundheit). Dabei habt ihr selbst die Möglichkeit eigene thematische Schwerpunkte zu setzen, indem ihr euch eigene Datensätze sucht oder eine Auswahl aus einem vorhandenen Pool von Datensätzen trefft.\nIhr braucht keinerlei Vorkenntnisse im Programmieren um an diesem Modul teilzunehmen. Alle notwendigen Grundlagen werden zu Beginn des Moduls vermittelt. Das Modul ist so aufgebaut, dass ihr Schritt für Schritt an die Themen herangeführt werdet.\nDas nächstes Mal angeboten wird die PE 1.22 im Sommersemester 2026."
-  },
-  {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "Lernmaterialien",
-    "section": "",
-    "text": "folgen…",
-    "crumbs": [
-      "Lernmaterialien",
-      "Ressourcen"
-    ]
-  },
-  {
-    "objectID": "goals.html",
-    "href": "goals.html",
-    "title": "Lernziele",
-    "section": "",
-    "text": "In diesem Modul lernt ihr:\n\nDaten aus unterschiedlichen Sportbereichen mit Hilfe von Programmiercode zu analysieren.\ndie Grundlagen von fortgeschrittenen statistischen Verfahren (auch Machine Learning und Deep Learning).\nDie Prinzipien und praktische Umsetzung erfolgreicher Visualisierung und Kommunikation von Daten.\nPotenziale und Limitationen komplexer Modelle, wie etwa KI, aus technischer und ethischer Sicht zu diskutieren.\n\nFür mehr Details zu den Zielen der Veranstaltungen findet ihr hier das aktuelle Modulhandbuch: PDF.",
-    "crumbs": [
-      "Informationen zum Modul",
-      "Lernziele"
-    ]
   },
   {
     "objectID": "schedule.html",
@@ -175,17 +113,6 @@
     "crumbs": [
       "Informationen zum Modul",
       "Semesterplan"
-    ]
-  },
-  {
-    "objectID": "datasets.html",
-    "href": "datasets.html",
-    "title": "Datensätze",
-    "section": "",
-    "text": "Hier eine Übersicht über Datensätze die ihr verwenden könnt:\nfolgt…",
-    "crumbs": [
-      "Lernmaterialien",
-      "Datensätze"
     ]
   },
   {
@@ -255,47 +182,120 @@
     ]
   },
   {
-    "objectID": "requirements.html",
-    "href": "requirements.html",
-    "title": "Rahmenbedingungen",
+    "objectID": "exams.html",
+    "href": "exams.html",
+    "title": "Prüfungen",
     "section": "",
-    "text": "Um am Modul teilnehmen zu können, müssen folgende Voraussetzungen erfüllt sein:\n\nInsgesamt fünf Module aus BAS und SQ abgeschlossen (siehe Zulassungsvoraussetzungen für die PE)\nWir empfehlen dringend, dass ihr das Modul SQ3 bereits abgeschlossen habt\nIm Rahmen der Veranstaltung benötigt ihr einen eigenen Laptop mit Administratorrechten (um Software installieren zu können). Ein Tablet reicht nicht aus. Kontaktiert uns bitte im Vorfeld, wenn ihr keinen eigenen Laptop habt und dennoch am Modul teilnehmen möchtet.",
+    "text": "Im Rahmen des Moduls sind zwei benotete Prüfungen zu absolvieren:\n\nEin Kurzvortrag (5 min Vortrag + 10 min Diskussion) in dem die Methodik und Ergebnisse einer selbstständig durchgeführten Datenanalyse in 2er-Teams präsentiert werden\nAbgabe einer Dokumentation (Visualisierung inklusive Code zur Reproduktion).",
     "crumbs": [
       "Informationen zum Modul",
-      "Rahmenbedingungen"
+      "Prüfungen"
     ]
   },
   {
-    "objectID": "requirements.html#voraussetzungen",
-    "href": "requirements.html#voraussetzungen",
-    "title": "Rahmenbedingungen",
+    "objectID": "exams.html#modulprüfungen",
+    "href": "exams.html#modulprüfungen",
+    "title": "Prüfungen",
     "section": "",
-    "text": "Um am Modul teilnehmen zu können, müssen folgende Voraussetzungen erfüllt sein:\n\nInsgesamt fünf Module aus BAS und SQ abgeschlossen (siehe Zulassungsvoraussetzungen für die PE)\nWir empfehlen dringend, dass ihr das Modul SQ3 bereits abgeschlossen habt\nIm Rahmen der Veranstaltung benötigt ihr einen eigenen Laptop mit Administratorrechten (um Software installieren zu können). Ein Tablet reicht nicht aus. Kontaktiert uns bitte im Vorfeld, wenn ihr keinen eigenen Laptop habt und dennoch am Modul teilnehmen möchtet.",
+    "text": "Im Rahmen des Moduls sind zwei benotete Prüfungen zu absolvieren:\n\nEin Kurzvortrag (5 min Vortrag + 10 min Diskussion) in dem die Methodik und Ergebnisse einer selbstständig durchgeführten Datenanalyse in 2er-Teams präsentiert werden\nAbgabe einer Dokumentation (Visualisierung inklusive Code zur Reproduktion).",
     "crumbs": [
       "Informationen zum Modul",
-      "Rahmenbedingungen"
+      "Prüfungen"
     ]
   },
   {
-    "objectID": "requirements.html#anmeldung",
-    "href": "requirements.html#anmeldung",
-    "title": "Rahmenbedingungen",
-    "section": "Anmeldung",
-    "text": "Anmeldung\nDie Belegung erfolgt regulär über mySpoho innerhalb der LVB-Phasen. Eine Teilnahme auf weißen Schein oder ein Nachrücken in der ersten Semesterwoche ist in der Regel möglich, bitte kontaktiert uns hierzu aber im Vorfeld per E-Mail.",
+    "objectID": "exams.html#vorgaben",
+    "href": "exams.html#vorgaben",
+    "title": "Prüfungen",
+    "section": "Vorgaben",
+    "text": "Vorgaben\nDie konkreten Vorgaben zu den Prüfungen (z.B. welche Datenanalyse, welche Visualisierung, etc.) werden bis zum Start des Semesters bekannt gegeben. Es wird aber auf jeden Fall möglich sein, die Prüfungen mit einem selbstgewählten Datensatz zu einem Themenbereich eurer Wahl durchzuführen.",
     "crumbs": [
       "Informationen zum Modul",
-      "Rahmenbedingungen"
+      "Prüfungen"
     ]
   },
   {
-    "objectID": "requirements.html#teilnahme",
-    "href": "requirements.html#teilnahme",
-    "title": "Rahmenbedingungen",
-    "section": "Teilnahme",
-    "text": "Teilnahme\nIn den drei Seminarveranstaltungen des Moduls gibt es keine Anwesenheitspflicht. Bei dem Modul handelt es sich um ein Wahlmodul und ihr seid freiwillig hier. Wir versuchen die Einheiten so zu gestalten, dass ihr bestmöglich im Rahmen der Veranstaltung lernen könnt.",
+    "objectID": "exams.html#bewertungskriterien",
+    "href": "exams.html#bewertungskriterien",
+    "title": "Prüfungen",
+    "section": "Bewertungskriterien",
+    "text": "Bewertungskriterien\nDie konkreten Bewertungkriterien einschließlich des Punktesystem zur Bewertung der Prüfungen werden ebenfalls bis zum Start des Semesters bekannt gegeben.",
     "crumbs": [
       "Informationen zum Modul",
-      "Rahmenbedingungen"
+      "Prüfungen"
+    ]
+  },
+  {
+    "objectID": "datasets.html",
+    "href": "datasets.html",
+    "title": "Datensätze",
+    "section": "",
+    "text": "Hier sind Links zu Datensätzen, die ihr verwenden könnt:\n\nsportdata package Github. Wird bei Installation des pe122 packages automatisch mit installiert. Erhält eine Reihe von Datensätzen aus unterschiedlichen Sportbereichen, die direkt in R verwendet werden können, indem ihr das package mit library(sportdata) ladet. Mehr Informationen zu den enthaltenen Datensätzen findet auf der GitHub Seite des packages.\nKaggle Kaggle. Auf der Plattform Kaggle findet ihr eine große Auswahl an gut dokumentierten Datensätzen aus den unterschiedlichsten Bereichen. Ihr könnt die Datensätze direkt auf der Website als CSV herunterladen, eventuell benötigt ihr dafür einen kostenlosen Account.\nSport-Statistics.com Website. Auf dieser Seite findet ihr eine Liste mit Datensätzen aus verschiedenen Sportarten.\nSports Dataverse GitHub. Eine Reihe von R Packages zur Analyse von Sportdaten, die auch Datensätze enthalten. Mehr Informationen zu den enthaltenen Datensätzen findet auf der GitHub Seite des packages.\nSCORE Sports Data Repository Website. Eine große Sammlung von Datensätzen aus verschiedenen Sportarten, die direkt auf der Website ohne Registrierung als CSV heruntergeladen werden können.",
+    "crumbs": [
+      "Lernmaterialien",
+      "Datensätze"
+    ]
+  },
+  {
+    "objectID": "setup.html",
+    "href": "setup.html",
+    "title": "Setup",
+    "section": "",
+    "text": "Um an der Veranstaltung teilzunehmen müsst ihr zunächst mehrere Softwareprogramme installieren. Bitte absolviert daher vor der ersten Veranstaltung folgende Schritte:\n\nLadet euch die Programmiersprache R herunter: Download R\nLadet euch im Anschluss die Oberfläche Positron herunter: Download Positron\nLadet euch außerdem das lokale KI-System Ollama herunter: Download Ollama",
+    "crumbs": [
+      "Lernmaterialien",
+      "Setup"
+    ]
+  },
+  {
+    "objectID": "setup.html#erforderliche-software",
+    "href": "setup.html#erforderliche-software",
+    "title": "Setup",
+    "section": "",
+    "text": "Um an der Veranstaltung teilzunehmen müsst ihr zunächst mehrere Softwareprogramme installieren. Bitte absolviert daher vor der ersten Veranstaltung folgende Schritte:\n\nLadet euch die Programmiersprache R herunter: Download R\nLadet euch im Anschluss die Oberfläche Positron herunter: Download Positron\nLadet euch außerdem das lokale KI-System Ollama herunter: Download Ollama",
+    "crumbs": [
+      "Lernmaterialien",
+      "Setup"
+    ]
+  },
+  {
+    "objectID": "setup.html#r-packages",
+    "href": "setup.html#r-packages",
+    "title": "Setup",
+    "section": "R Packages",
+    "text": "R Packages\nFür das Modul benötigt ihr eine Reihe von Erweiterungen (packages) für R. Diese könnt ihr direkt mit Hilfe von R herunterladen. Öffnet dazu zunächst Positron und geht dort auf die Konsole. Hier gebt ihr in dieser Reihenfolge folgende Befehle ein:\ninstall.packages(c(\"tidyverse\", \"remotes\", \"broom\", \"learnr\", \"ollamar\"))\nremotes::install_github(\"pe1-22/pe122\")",
+    "crumbs": [
+      "Lernmaterialien",
+      "Setup"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "PE 1.22 - Fortgeschrittene Datenanalyse, Statistik und Visualisierung",
+    "section": "",
+    "text": "Auf dieser Website findet ihr alle Informationen rund um das Bachelormodul PE 1.22 an der Deutschen Sporthochschule Köln.\nIn diesem Modul lernt ihr\n\neigene Datenanalysen zu programmieren\ndie statistischen Grundlagen hinter Machine Learning und Deep Learning\nDaten und Auswertungen ansprechend zu visualisieren\nDatenanalyse und KI auch aus ethischer Sicht kritisch zu beurteilen\n\nWir befassen uns in erster Linie mit Daten aus verschiedenen Bereichen des Sports (Leistungsdiagnostik, Ergebnisdaten, Sportökonomie, Gesundheit). Dabei habt ihr selbst die Möglichkeit eigene thematische Schwerpunkte zu setzen, indem ihr euch eigene Datensätze sucht oder eine Auswahl aus einem vorhandenen Pool von Datensätzen trefft.\nIhr braucht keinerlei Vorkenntnisse im Programmieren um an diesem Modul teilzunehmen. Alle notwendigen Grundlagen werden zu Beginn des Moduls vermittelt. Das Modul ist so aufgebaut, dass ihr Schritt für Schritt an die Themen herangeführt werdet.\nDas nächstes Mal angeboten wird die PE 1.22 im Sommersemester 2026."
+  },
+  {
+    "objectID": "goals.html",
+    "href": "goals.html",
+    "title": "Lernziele",
+    "section": "",
+    "text": "In diesem Modul lernt ihr:\n\nDaten aus unterschiedlichen Sportbereichen mit Hilfe von Programmiercode zu analysieren.\ndie Grundlagen von fortgeschrittenen statistischen Verfahren (auch Machine Learning und Deep Learning).\nDie Prinzipien und praktische Umsetzung erfolgreicher Visualisierung und Kommunikation von Daten.\nPotenziale und Limitationen komplexer Modelle, wie etwa KI, aus technischer und ethischer Sicht zu diskutieren.\n\nFür mehr Details zu den Zielen der Veranstaltungen findet ihr hier das aktuelle Modulhandbuch: PDF.",
+    "crumbs": [
+      "Informationen zum Modul",
+      "Lernziele"
+    ]
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Lernmaterialien",
+    "section": "",
+    "text": "folgen…",
+    "crumbs": [
+      "Lernmaterialien",
+      "Ressourcen"
     ]
   }
 ]
