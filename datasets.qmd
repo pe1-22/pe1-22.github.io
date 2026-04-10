@@ -4,8 +4,8 @@ title: "Datensätze"
 
 Hier sind Links zu Datensätzen, die ihr verwenden könnt:
 
-- **sportdata package** [Github](https://github.com/smnnlt/sportdata). Wird bei Installation des `pe122` packages automatisch mit installiert. Erhält eine Reihe von Datensätzen aus unterschiedlichen Sportbereichen, die direkt in R verwendet werden können, indem ihr das package mit `library(sportdata)` ladet. Mehr Informationen zu den enthaltenen Datensätzen findet auf der GitHub Seite des packages.
+- **sportsdata package** [Github](https://github.com/smnnlt/sportsdata). Wird bei Installation des `pe122` packages automatisch mit installiert. Erhält eine Reihe von Datensätzen aus unterschiedlichen Sportbereichen, die direkt in R verwendet werden können, indem ihr das package mit `library(sportsdata)` ladet. Mehr Informationen zu den enthaltenen Datensätzen findet auf der GitHub Seite des packages.
 - **Kaggle** [Kaggle](https://www.kaggle.com/datasets?tags=4141-Sports). Auf der Plattform Kaggle findet ihr eine große Auswahl an gut dokumentierten Datensätzen aus den unterschiedlichsten Bereichen. Ihr könnt die Datensätze direkt auf der Website als CSV herunterladen, eventuell benötigt ihr dafür einen kostenlosen Account.
-- **Sport-Statistics.com** [Website](https://www.sport-statistics.com/). Auf dieser Seite findet ihr eine Liste mit Datensätzen aus verschiedenen Sportarten. 
+- **Sports-Statistics.com** [Website](https://sports-statistics.com/sports-data/sports-data-sets-for-data-modeling-visualization-predictions-machine-learning/). Auf dieser Seite findet ihr eine Liste mit Datensätzen aus verschiedenen Sportarten. 
 - **Sports Dataverse** [GitHub](https://github.com/sportsdataverse). Eine Reihe von R Packages zur Analyse von Sportdaten, die auch Datensätze enthalten. Mehr Informationen zu den enthaltenen Datensätzen findet auf der GitHub Seite des packages.
 - **SCORE Sports Data Repository** [Website](https://data.scorenetwork.org/). Eine große Sammlung von Datensätzen aus verschiedenen Sportarten, die direkt auf der Website ohne Registrierung als CSV heruntergeladen werden können.
