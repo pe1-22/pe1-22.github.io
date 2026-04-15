@@ -1,6 +1,9 @@
 project:
   type: website
 
+resources: 
+  - resources/**
+
 website:
   title: "PE1.22"
   description: "Website für PE1.22 - Fortgeschrittene Datenanalyse, Statistik und Visualisierung"
