@@ -1,0 +1,251 @@
+---
+title: "Lineares Modell"
+format: 
+  revealjs:
+    incremental: true
+echo: true
+---
+
+# Das lineare Modell
+
+## Grundlagen
+
+$$y = \beta_0 + \beta_1 x + \epsilon$$
+
+. . .
+
+- $y$: Outcome
+- $x$: Predictor
+- $\beta_0$: y-Achsenabschnitt
+- $\beta_1$: Steigung
+- $\epsilon$: Fehlerterm
+
+## Interaktives Beispiel
+```{ojs}
+//| echo: false
+//| panel: sidebar
+
+viewof b = Inputs.range([-5, 5], {value: 2, step: 0.1, label: "Intercept"})
+viewof m = Inputs.range([-3, 3], {value: 1, step: 0.1, label: "Slope"})
+
+function lineData(b, m){
+  const pts = [];
+  for(let x = -10; x <= 10; x += 0.5) pts.push({x, y: b + m * x});
+  return pts;
+}
+```
+
+```{ojs}
+//| panel: fill
+//| echo: false
+Plot.plot({
+    width: 600, height: 400,
+    x: {domain: [-10, 10]},
+    y: {domain: [-10, 10]},
+    marks: [
+      Plot.line(lineData(b, m), {x: "x", y: "y", stroke: "steelblue", strokeWidth: 3}),
+      Plot.ruleY([0], {stroke: "#333"}),
+      Plot.ruleX([0], {stroke: "#333"})
+    ]
+})
+
+```
+
+## Ein lineares Modell fitten
+
+- Residuen: Abweichung der Daten vom Modell
+- Root of Mean Squared Error (RSME): "Durchschnittliche" Abweichung
+- Ziel: Parameter so wählen, dass RSME minimiert wird
+
+## Interaktives Beispiel
+
+```{ojs}
+//| echo: false
+//| panel: sidebar
+import {Inputs} from "@observablehq/inputs"
+
+viewof b2 = Inputs.range([-5, 5], {value: 2, step: 0.1, label: "Intercept"})
+viewof m2 = Inputs.range([-3, 3], {value: 1, step: 0.01, label: "Slope"})
+
+// five sample points near y = 2 + 1*x with controlled noise (RMSE ≈ 1.75 at b=2,m=1)
+data2 = [
+  {x: -4, y: -0.8},
+  {x: -2, y: -2.4},
+  {x:  0, y:  2.0},
+  {x:  2, y:  6.4},
+  {x:  4, y:  4.8}
+]
+
+function predict2(b, m, x){ return b + m * x }
+
+function residuals2(b, m){
+  return data2.map(d => ({x: d.x, y: d.y, yhat: predict2(b, m, d.x), resid: d.y - predict2(b, m, d.x)}));
+}
+
+// show RMSE in the sidebar (no imports, no const)
+rmse2 = Math.sqrt(residuals2(b2, m2).reduce(function(s,p){return s + p.resid*p.resid}, 0) / residuals2(b2, m2).length)
+html`<div style='font-family:sans-serif;margin-top:8px'>RMSE: <strong>${rmse2.toFixed(2)}</strong></div>`
+```
+
+```{ojs}
+//| panel: fill
+//| echo: false
+pts2 = residuals2(b2, m2)
+
+linePts2 = [{x: -10, y: predict2(b2, m2, -10)}, {x: 10, y: predict2(b2, m2, 10)}]
+
+// build two-point segments grouped by gid so each draws as a vertical line
+segs = pts2.flatMap((p, i) => [{x: p.x, y: p.y, gid: i}, {x: p.x, y: p.yhat, gid: i}])
+
+Plot.plot({
+  width: 600, height: 400,
+  x: {domain: [-10, 10]},
+  y: {domain: [-10, 10]},
+  marks: [
+    Plot.line(linePts2, {x: "x", y: "y", stroke: "steelblue", strokeWidth: 3}),
+    Plot.line(segs, {x: "x", y: "y", z: "gid", stroke: "tomato", strokeWidth: 1.5}),
+    Plot.dot(pts2, {x: "x", y: "y", fill: "#000", r: 5}),
+    Plot.dot(pts2, {x: "x", y: "yhat", fill: "steelblue", r: 3}),
+    Plot.ruleY([0], {stroke: "#333"}),
+    Plot.ruleX([0], {stroke: "#333"})
+  ]
+})
+
+```
+
+## Lineares Modell fitten in R
+
+```{r}
+# Data from interactive example
+df_demo <- data.frame(x = c(-4, -2, 0, 2, 4), y = c(-0.8, -2.4, 2.0, 6.4, 4.8))
+
+# Fit linear model
+# y is predicted by x, using data from df_demo
+mod <- lm(y ~ x, data = df_demo)
+s <- summary(mod)
+s$sigma
+```
+
+## Modellevaluation 1: Gesamtmodell
+
+- Residual Standard Error (RSE): Eine Variante vom RMSE
+- R²: Anteil der Streuung, die durch das Modell erklärt wird (100% = alle Punkte liegen auf der Linie)
+- F-Statistik & p-Wert: Ist das Modell besser als nur der Mittelwert?
+
+. . .
+
+```{r}
+broom::glance(mod)
+```
+
+## Modellevaluation 2: Parameter
+
+- Standardfehler: Wie sicher ist die Schätzung des Parameters?
+- t-Statistik & p-Wert: Leistet der Parameter einen Beitrag zum Modell (Unterscheidet sich der Parameter-Wert von 0)?
+
+. . .
+
+```{r}
+broom::tidy(mod, conf.int = TRUE)
+```
+
+# Beispiel: Körpergröße und Gewicht von Olympiateilnehmer*innen
+
+## Datensatz
+
+```{r}
+# remotes::install_github("smnnlt/sportsdata")
+library(sportsdata)
+
+head(olympics)
+nrow(olympics)
+```
+
+## Visualisierung
+
+```{r}
+#| cache: true
+library(ggplot2)
+
+ggplot(olympics, aes(x = height, y = weight)) +
+  geom_point(alpha = 0.1) +
+  geom_smooth(method = "lm", se = FALSE)
+
+```
+
+## Lineares Modell
+
+$$weight = \beta_0 + \beta_1 height $$
+
+. . . 
+
+```{r}
+mod_olympics <- lm(weight ~ height, data = olympics)
+``` 
+
+. . .
+
+```{r}
+broom::glance(mod_olympics)
+broom::tidy(mod_olympics, conf.int = TRUE)
+```
+
+# Vorhersagen und Voraussetzungen
+
+## Vorhersagen {.smaller}
+
+Wie schwer ist eine Athlet*in mit einer Körpergröße von 170 cm?
+
+```{r}
+new_data <- data.frame(height = 170)
+predict(mod_olympics, new_data)
+```
+
+. . .
+
+Confidence Interval: Wie sicher bin ich mir mit dieser Mittelwert-Schätzung?
+
+```{r}
+predict(mod_olympics, new_data, interval = "confidence")
+```
+
+. . .
+
+Prediction Interval: Wie sicher bin ich mir mit der Vorhersage für die eine Person?
+
+```{r}
+predict(mod_olympics, new_data, interval = "prediction")
+```
+
+## Vorhersagen
+
+```{r}
+#| cache: true
+#| code-fold: true
+
+pred <- predict(mod_olympics, new_data, interval = "prediction")
+pred_cft <- predict(mod_olympics, new_data, interval = "confidence")
+ggplot(olympics, aes(x = height, y = weight)) +
+  geom_point(alpha = 0.1) +
+  geom_smooth(method = "lm", se = FALSE) + 
+  annotate("segment", x = 125, xend = 170, y = pred[1, "fit"], yend = pred[1, "fit"], color = "black", linetype = "dashed") +
+  annotate("rect", xmin = 125, xmax = 170, ymin = pred_cft[1, "lwr"], ymax = pred_cft[1, "upr"], fill = "blue", alpha = 0.6) +
+  annotate("rect", xmin = 125, xmax = 170, ymin = pred[1, "lwr"], ymax = pred[1, "upr"], fill = "red", alpha = 0.2) +
+  annotate("segment", x = 170, xend = 170, y = 0, yend = pred[1, "fit"], color = "red", linetype = "dashed") +
+  theme_grey(base_size = 14)
+  
+```
+
+## Voraussetzungen
+
+```{r}
+#| cache: true
+#| fig-height: 7
+performance::check_model(mod_olympics, base_size = 7)
+```
+
+## Voraussetzungen
+
+- richtige Verteilung, Linearität, Homoskedastizität, keine Ausreißer, Normalverteilung der Residuen, (Multikollinearität)
+- mehr Details zu den einzelnen Voraussetzungen in den Übungen
+- Lösungen: anderes Modell, robustes Modell, Transformation der Daten, Ausreißer entfernen
