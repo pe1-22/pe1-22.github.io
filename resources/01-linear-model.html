@@ -418,11 +418,11 @@
 <section id="lineares-modell-fitten-in-r" class="slide level2">
 <h2>Lineares Modell fitten in R</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href=""></a><span class="co"># Data from interactive example</span></span>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href=""></a><span class="co"># Datensatz aus interaktivem Beispiel</span></span>
 <span id="cb5-2"><a href=""></a>df_demo <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">x =</span> <span class="fu">c</span>(<span class="sc">-</span><span class="dv">4</span>, <span class="sc">-</span><span class="dv">2</span>, <span class="dv">0</span>, <span class="dv">2</span>, <span class="dv">4</span>), <span class="at">y =</span> <span class="fu">c</span>(<span class="sc">-</span><span class="fl">0.8</span>, <span class="sc">-</span><span class="fl">2.4</span>, <span class="fl">2.0</span>, <span class="fl">6.4</span>, <span class="fl">4.8</span>))</span>
 <span id="cb5-3"><a href=""></a></span>
-<span id="cb5-4"><a href=""></a><span class="co"># Fit linear model</span></span>
-<span id="cb5-5"><a href=""></a><span class="co"># y is predicted by x, using data from df_demo</span></span>
+<span id="cb5-4"><a href=""></a><span class="co"># Lineares Modell fitten</span></span>
+<span id="cb5-5"><a href=""></a><span class="co"># y wird vorhergesagt (~) durch x, unter Nutzung des Datensatzes df_demo</span></span>
 <span id="cb5-6"><a href=""></a>mod <span class="ot">&lt;-</span> <span class="fu">lm</span>(y <span class="sc">~</span> x, <span class="at">data =</span> df_demo)</span>
 <span id="cb5-7"><a href=""></a>s <span class="ot">&lt;-</span> <span class="fu">summary</span>(mod)</span>
 <span id="cb5-8"><a href=""></a>s<span class="sc">$</span>sigma</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
