@@ -292,18 +292,18 @@
     "href": "resources.html",
     "title": "Lernmaterialien",
     "section": "",
-    "text": "01 Lineares Modell: Slides\n02 Lineares Modell — Advanced: Slides\n03 Logistische Regression: Slides\n\nWeitere Präsentationen werden in Kürze ergänzt.\n\n\n\nMaterialien zu allen anderen Einheiten findet ihr auf Moodle.",
+    "text": "01 Lineares Modell: Slides\n02 Lineares Modell — Advanced: Slides\n03 Logistische Regression: Slides\n\nWeitere Präsentationen werden in Kürze ergänzt.\n\n\n\nFür die Übungen benötigt ihr das pe122 package. Ihr könnt es mit dem folgenden Befehl installieren:\nremotes::install_github(\"pe1-22/pe122\")\n\n\n\n\n\n\nImportantProbleme mit der Installation?\n\n\n\n\n\n\n\nIhr benötigt die Command Line Tools von Xcode. Diese könnt ihr installieren, indem ihr im Terminal den folgenden Befehl ausführt: xcode-select --install. Danach R neu starten und die Installation des pe122 packages erneut versuchen.\n\n\n\nGithub beschränkt manchmal den Zugriff auf Downloads von anonymen Nutzern. Ihr habt mehrere Möglichkeiten, dieses Problem zu umgehen:\n\nversucht es später nochmal.\nerstellt einen kostenlosen Github Account und verbindet diesen mit R, damit ihr als authentifizierter Nutzer keine Beschränkungen habt.\nLadet euch das Package als zip-Datei herunter von Github herunter (grüner Button “Code” &gt; “Download ZIP”). Speichert die Datei in eurem aktuellen Arbeitsverzeichnis. Installiert es manuell mit remotes::install_local(\"dateipfad/package.zip\"). Macht diese Schritte für die folgenden Packages (in dieser Reihenfolge): link: gradethis, ggcheck, sportsdata, pe122.\n\n\n\n\n\nIm Anschluss könnt ihr die Übung starten, indem ihr folgenden Befehl in R ausführt (hier für Übung 1): learnr::run_tutorial(name = \"01-stat\", package = \"pe122\")\n\n\n\nDie Materialien findet ihr auf Moodle.",
     "crumbs": [
       "Lernmaterialien",
       "Ressourcen"
     ]
   },
   {
-    "objectID": "resources.html#materialien-erweiterte-modellbildung-ki",
-    "href": "resources.html#materialien-erweiterte-modellbildung-ki",
+    "objectID": "resources.html#erweiterte-modellbildung-ki",
+    "href": "resources.html#erweiterte-modellbildung-ki",
     "title": "Lernmaterialien",
     "section": "",
-    "text": "01 Lineares Modell: Slides\n02 Lineares Modell — Advanced: Slides\n03 Logistische Regression: Slides\n\nWeitere Präsentationen werden in Kürze ergänzt.\n\n\n\nMaterialien zu allen anderen Einheiten findet ihr auf Moodle.",
+    "text": "01 Lineares Modell: Slides\n02 Lineares Modell — Advanced: Slides\n03 Logistische Regression: Slides\n\nWeitere Präsentationen werden in Kürze ergänzt.\n\n\n\nFür die Übungen benötigt ihr das pe122 package. Ihr könnt es mit dem folgenden Befehl installieren:\nremotes::install_github(\"pe1-22/pe122\")\n\n\n\n\n\n\nImportantProbleme mit der Installation?\n\n\n\n\n\n\n\nIhr benötigt die Command Line Tools von Xcode. Diese könnt ihr installieren, indem ihr im Terminal den folgenden Befehl ausführt: xcode-select --install. Danach R neu starten und die Installation des pe122 packages erneut versuchen.\n\n\n\nGithub beschränkt manchmal den Zugriff auf Downloads von anonymen Nutzern. Ihr habt mehrere Möglichkeiten, dieses Problem zu umgehen:\n\nversucht es später nochmal.\nerstellt einen kostenlosen Github Account und verbindet diesen mit R, damit ihr als authentifizierter Nutzer keine Beschränkungen habt.\nLadet euch das Package als zip-Datei herunter von Github herunter (grüner Button “Code” &gt; “Download ZIP”). Speichert die Datei in eurem aktuellen Arbeitsverzeichnis. Installiert es manuell mit remotes::install_local(\"dateipfad/package.zip\"). Macht diese Schritte für die folgenden Packages (in dieser Reihenfolge): link: gradethis, ggcheck, sportsdata, pe122.\n\n\n\n\n\nIm Anschluss könnt ihr die Übung starten, indem ihr folgenden Befehl in R ausführt (hier für Übung 1): learnr::run_tutorial(name = \"01-stat\", package = \"pe122\")\n\n\n\nDie Materialien findet ihr auf Moodle.",
     "crumbs": [
       "Lernmaterialien",
       "Ressourcen"
