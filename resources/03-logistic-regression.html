@@ -98,6 +98,8 @@
   <link href="03-logistic-regression_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="03-logistic-regression_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="03-logistic-regression_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="03-logistic-regression_files/libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="03-logistic-regression_files/libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
   <link href="03-logistic-regression_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
     .reveal div.sourceCode {
@@ -199,9 +201,6 @@
 <div class="quarto-title-authors">
 </div>
 
-</section>
-<section id="wiederholung" class="slide level2">
-<h2>Wiederholung</h2>
 </section>
 <section>
 <section id="problemstellung" class="title-slide slide level1 center">
@@ -338,7 +337,7 @@ FALSE  TRUE
 <h2>Interaktives Beispiel</h2>
 <div class="layout-sidebar layout-sidebar-left">
 <div class="cell panel-sidebar">
-<div class="sourceCode cell-code hidden" id="cb7" data-startfrom="101" data-source-offset="-1"><pre class="sourceCode numberSource js number-lines code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 100;"><span id="cb7-101"><a href=""></a>viewof b <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">range</span>([<span class="op">-</span><span class="dv">5</span><span class="op">,</span> <span class="dv">5</span>]<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">2</span><span class="op">,</span> <span class="dt">step</span><span class="op">:</span> <span class="fl">0.1</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"Intercept"</span>})</span>
+<div class="sourceCode cell-code hidden" id="cb7" data-startfrom="101" data-source-offset="-1"><pre class="sourceCode numberSource js number-lines code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 100;"><span id="cb7-101"><a href=""></a>viewof b <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">range</span>([<span class="op">-</span><span class="dv">5</span><span class="op">,</span> <span class="dv">5</span>]<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> <span class="dt">step</span><span class="op">:</span> <span class="fl">0.1</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"Intercept"</span>})</span>
 <span id="cb7-102"><a href=""></a>viewof m <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">range</span>([<span class="op">-</span><span class="dv">3</span><span class="op">,</span> <span class="dv">3</span>]<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span> <span class="dt">step</span><span class="op">:</span> <span class="fl">0.1</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"Slope"</span>})</span>
 <span id="cb7-103"><a href=""></a></span>
 <span id="cb7-104"><a href=""></a><span class="kw">function</span> <span class="fu">lineData</span>(b<span class="op">,</span> m){</span>
@@ -439,6 +438,7 @@ FALSE  TRUE
 <ul>
 <li class="fragment">least squares passt nicht so gut, daher wird <em>maximum likelihood estimation</em> verwendet</li>
 </ul>
+<div class="fragment">
 <div class="cell">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href=""></a><span class="fu">glm</span>(drafted <span class="sc">~</span> jump_vertical, <span class="at">data =</span> nfl2025, <span class="at">family =</span> binomial) <span class="sc">|&gt;</span> </span>
 <span id="cb9-2"><a href=""></a>  broom<span class="sc">::</span><span class="fu">tidy</span>(<span class="at">conf.int =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -448,6 +448,7 @@ FALSE  TRUE
   &lt;chr&gt;            &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;   &lt;dbl&gt;    &lt;dbl&gt;     &lt;dbl&gt;
 1 (Intercept)    -2.32      1.35       -1.72  0.0853 -5.02       0.300 
 2 jump_vertical   0.0332    0.0157      2.12  0.0342  0.00286    0.0645</code></pre>
+</div>
 </div>
 </div>
 <div class="fragment">
@@ -490,9 +491,12 @@ FALSE  TRUE
 <div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href=""></a>nfl_mod <span class="ot">&lt;-</span> <span class="fu">glm</span>(drafted <span class="sc">~</span> jump_vertical, <span class="at">data =</span> nfl2025, <span class="at">family =</span> binomial)</span>
 <span id="cb13-2"><a href=""></a>new_data <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">jump_vertical =</span> <span class="fu">c</span>(<span class="dv">50</span>, <span class="dv">60</span>, <span class="dv">70</span>, <span class="dv">80</span>, <span class="dv">90</span>, <span class="dv">100</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+<div class="fragment">
 <h3 id="log-odds">Log-Odds</h3>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href=""></a>insight<span class="sc">::</span><span class="fu">get_predicted</span>(nfl_mod, <span class="at">data =</span> new_data, <span class="at">predict =</span> <span class="st">"link"</span>, <span class="at">ci =</span> <span class="fl">0.95</span>) <span class="sc">|&gt;</span> <span class="fu">as.data.frame</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href=""></a>new_data <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">jump_vertical =</span> <span class="fu">c</span>(<span class="dv">50</span>, <span class="dv">60</span>, <span class="dv">70</span>, <span class="dv">80</span>, <span class="dv">90</span>, <span class="dv">100</span>))</span>
+<span id="cb14-2"><a href=""></a>insight<span class="sc">::</span><span class="fu">get_predicted</span>(nfl_mod, <span class="at">data =</span> new_data, <span class="at">predict =</span> <span class="st">"link"</span>, <span class="at">ci =</span> <span class="fl">0.95</span>) <span class="sc">|&gt;</span></span>
+<span id="cb14-3"><a href=""></a>  <span class="fu">as.data.frame</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>      Predicted        SE       CI_low   CI_high
 1 -0.6642623655 0.5776785 -1.796491385 0.4679667
@@ -503,9 +507,14 @@ FALSE  TRUE
 6  0.9948166105 0.2670484  0.471411267 1.5182220</code></pre>
 </div>
 </div>
-<h3 id="wahrscheinlichkeiten">Wahrscheinlichkeiten</h3>
+</div>
+</section>
+<section id="vorhersage-wahrscheinlichkeiten" class="slide level2">
+<h2>Vorhersage Wahrscheinlichkeiten</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href=""></a>insight<span class="sc">::</span><span class="fu">get_predicted</span>(nfl_mod, <span class="at">data =</span> new_data, <span class="at">predict =</span> <span class="st">"expectation"</span>, <span class="at">ci =</span> <span class="fl">0.95</span>) <span class="sc">|&gt;</span> <span class="fu">as.data.frame</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href=""></a>new_data <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">jump_vertical =</span> <span class="fu">c</span>(<span class="dv">50</span>, <span class="dv">60</span>, <span class="dv">70</span>, <span class="dv">80</span>, <span class="dv">90</span>, <span class="dv">100</span>))</span>
+<span id="cb16-2"><a href=""></a>insight<span class="sc">::</span><span class="fu">get_predicted</span>(nfl_mod, <span class="at">data =</span> new_data, <span class="at">predict =</span> <span class="st">"expectation"</span>, <span class="at">ci =</span> <span class="fl">0.95</span>) <span class="sc">|&gt;</span></span>
+<span id="cb16-3"><a href=""></a>  <span class="fu">as.data.frame</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>  Predicted         SE    CI_low   CI_high
 1 0.3397828 0.12959087 0.1422787 0.6149024
@@ -519,9 +528,7 @@ FALSE  TRUE
 </section>
 <section id="vorhersage-klassifikation" class="slide level2">
 <h2>Vorhersage Klassifikation</h2>
-<ul>
-<li class="fragment">benötigt Vorhersageregel, z.B. <span class="math inline">\(p &lt; 0.5 \rightarrow 0, p \ge 0.5 \rightarrow 1\)</span></li>
-</ul>
+<p>benötigt Vorhersageregel, z.B. <span class="math inline">\(p &lt; 0.5 \rightarrow 0, p \ge 0.5 \rightarrow 1\)</span></p>
 <div class="fragment">
 <div class="cell">
 <div class="sourceCode cell-code" id="cb18"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href=""></a>new_data <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">jump_vertical =</span> <span class="fu">c</span>(<span class="dv">50</span>, <span class="dv">60</span>, <span class="dv">70</span>, <span class="dv">80</span>, <span class="dv">90</span>, <span class="dv">100</span>))</span>
@@ -637,30 +644,31 @@ Prediction   0   1
 <p>Alle Schüsse aus 34 Bundesliga-Spielen der Saison 2023/2024.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb25"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href=""></a>shots <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"../preprocessing/shots.csv"</span>)</span>
-<span id="cb25-2"><a href=""></a><span class="fu">nrow</span>(shots)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb25-2"><a href=""></a><span class="fu">head</span>(shots, <span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>                                    id    timestamp        team.name
+1 c577e730-b9f5-44f2-9257-9e7730c23d7b 00:06:48.773    Werder Bremen
+2 bbc2c68d-c096-483d-abf4-32c0175a0f55 00:07:40.953 Bayer Leverkusen
+  shot.technique.name shot.body_part.name shot.type.name shot.outcome.name
+1              Normal          Right Foot      Open Play           Blocked
+2              Normal           Left Foot      Open Play             Saved
+  location_x location_y  goal  distance
+1      100.4       35.1 FALSE 20.203218
+2      114.6       33.5 FALSE  8.450444</code></pre>
+</div>
+</div>
+<div class="fragment">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href=""></a><span class="fu">nrow</span>(shots)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 916</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href=""></a><span class="fu">table</span>(shots<span class="sc">$</span>goal)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href=""></a><span class="fu">table</span>(shots<span class="sc">$</span>goal)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 FALSE  TRUE 
   806   110 </code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href=""></a><span class="fu">head</span>(shots, <span class="dv">3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>                                    id    timestamp        team.name
-1 c577e730-b9f5-44f2-9257-9e7730c23d7b 00:06:48.773    Werder Bremen
-2 bbc2c68d-c096-483d-abf4-32c0175a0f55 00:07:40.953 Bayer Leverkusen
-3 12b5206b-9ed0-4b1e-9ec3-f2028187e09f 00:11:08.471    Werder Bremen
-  shot.technique.name shot.body_part.name shot.type.name shot.outcome.name
-1              Normal          Right Foot      Open Play           Blocked
-2              Normal           Left Foot      Open Play             Saved
-3              Normal           Left Foot      Open Play           Blocked
-  location_x location_y  goal  distance
-1      100.4       35.1 FALSE 20.203218
-2      114.6       33.5 FALSE  8.450444
-3      106.2       55.8 FALSE 20.978084</code></pre>
 </div>
 </div>
 </section>
@@ -671,7 +679,7 @@ FALSE  TRUE
 <span id="cb31-2"><a href=""></a>    <span class="fu">geom_point</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
-<img data-src="03-logistic-regression_files/figure-revealjs/unnamed-chunk-18-1.png" width="960" class="r-stretch"></section>
+<img data-src="03-logistic-regression_files/figure-revealjs/unnamed-chunk-19-1.png" width="960" class="r-stretch"></section>
 <section id="modell" class="slide level2">
 <h2>Modell</h2>
 <div class="cell">
@@ -735,7 +743,7 @@ Prediction FALSE TRUE
 
 </div>
 
-<img data-src="03-logistic-regression_files/figure-revealjs/unnamed-chunk-21-1.png" width="960" class="r-stretch"></section></section>
+<img data-src="03-logistic-regression_files/figure-revealjs/unnamed-chunk-22-1.png" width="960" class="r-stretch"></section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">
@@ -750,6 +758,7 @@ Prediction FALSE TRUE
   <script src="03-logistic-regression_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="03-logistic-regression_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="03-logistic-regression_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="03-logistic-regression_files/libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
   <script src="03-logistic-regression_files/libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -771,7 +780,8 @@ Prediction FALSE TRUE
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'jumpToSlide': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -792,7 +802,7 @@ Prediction FALSE TRUE
         progress: true,
 
         // Display the page number of the current slide
-        slideNumber: false,
+        slideNumber: 'c/t',
 
         // 'all', 'print', or 'speaker'
         showSlideNumber: 'all',
@@ -942,7 +952,7 @@ Prediction FALSE TRUE
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
 
           RevealMath,
           RevealNotes,
@@ -952,7 +962,7 @@ Prediction FALSE TRUE
       });
     </script>
     <script type="ojs-module-contents">
-    eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6Ilxudmlld29mIGIgPSBJbnB1dHMucmFuZ2UoWy01LCA1XSwge3ZhbHVlOiAyLCBzdGVwOiAwLjEsIGxhYmVsOiBcIkludGVyY2VwdFwifSlcbnZpZXdvZiBtID0gSW5wdXRzLnJhbmdlKFstMywgM10sIHt2YWx1ZTogMSwgc3RlcDogMC4xLCBsYWJlbDogXCJTbG9wZVwifSlcblxuZnVuY3Rpb24gbGluZURhdGEoYiwgbSl7XG4gIGNvbnN0IHB0cyA9IFtdO1xuICBmb3IobGV0IHggPSAtMTA7IHggPD0gMTA7IHggKz0gMC41KSBwdHMucHVzaCh7eCwgeTogYiArIG0gKiB4fSk7XG4gIHJldHVybiBwdHM7XG59XG5cbmZ1bmN0aW9uIHByb2JEYXRhKGIsIG0pe1xuICBjb25zdCBwdHMgPSBbXTtcbiAgZm9yKGxldCB4ID0gLTEwOyB4IDw9IDEwOyB4ICs9IDAuNSl7XG4gICAgY29uc3QgbGluID0gYiArIG0gKiB4O1xuICAgIGNvbnN0IHAgPSAxIC8gKDEgKyBNYXRoLmV4cCgtbGluKSk7XG4gICAgcHRzLnB1c2goe3gsIHB9KTtcbiAgfVxuICByZXR1cm4gcHRzO1xufVxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC0yIiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoie1xuICBjb25zdCB3aWR0aCA9IDY4MDtcbiAgY29uc3QgaGVpZ2h0ID0gMjIwO1xuXG4gIGNvbnN0IGNvbnRhaW5lciA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoXCJkaXZcIik7XG4gIGNvbnRhaW5lci5zdHlsZS5kaXNwbGF5ID0gXCJmbGV4XCI7XG4gIGNvbnRhaW5lci5zdHlsZS5mbGV4RGlyZWN0aW9uID0gXCJjb2x1bW5cIjtcbiAgY29udGFpbmVyLnN0eWxlLmdhcCA9IFwiMTJweFwiO1xuXG4gIGNvbnN0IGxvZ2l0UGxvdCA9IFBsb3QucGxvdCh7XG4gICAgd2lkdGgsIGhlaWdodCxcbiAgICB4OiB7ZG9tYWluOiBbLTEwLCAxMF0sIGxhYmVsOiBcInhcIn0sXG4gICAgeToge2RvbWFpbjogWy0xMCwgMTBdLCBsYWJlbDogXCJMb2ctT2Rkc1wifSxcbiAgICBtYXJrczogW1xuICAgICAgUGxvdC5saW5lKGxpbmVEYXRhKGIsIG0pLCB7eDogXCJ4XCIsIHk6IFwieVwiLCBzdHJva2U6IFwic3RlZWxibHVlXCIsIHN0cm9rZVdpZHRoOiAzfSksXG4gICAgICBQbG90LnJ1bGVZKFswXSwge3N0cm9rZTogXCIjMzMzXCJ9KSxcbiAgICAgIFBsb3QucnVsZVgoWzBdLCB7c3Ryb2tlOiBcIiMzMzNcIn0pXG4gICAgXVxuICB9KTtcblxuICBjb25zdCBwcm9iUGxvdCA9IFBsb3QucGxvdCh7XG4gICAgd2lkdGgsIGhlaWdodCxcbiAgICB4OiB7ZG9tYWluOiBbLTEwLCAxMF0sIGxhYmVsOiBcInhcIn0sXG4gICAgeToge2RvbWFpbjogWzAsIDFdLCBsYWJlbDogXCJQcm9iYWJpbGl0eVwifSxcbiAgICBtYXJrczogW1xuICAgICAgUGxvdC5saW5lKHByb2JEYXRhKGIsIG0pLCB7eDogXCJ4XCIsIHk6IFwicFwiLCBzdHJva2U6IFwidG9tYXRvXCIsIHN0cm9rZVdpZHRoOiAzfSksXG4gICAgICBQbG90LnJ1bGVZKFswLjVdLCB7c3Ryb2tlOiBcIiMzMzNcIiwgc3Ryb2tlRGFzaGFycmF5OiBcIjQsNFwifSksXG4gICAgICBQbG90LnJ1bGVYKFswXSwge3N0cm9rZTogXCIjMzMzXCJ9KVxuICAgIF1cbiAgfSk7XG5cbiAgY29udGFpbmVyLmFwcGVuZENoaWxkKGxvZ2l0UGxvdCk7XG4gIGNvbnRhaW5lci5hcHBlbmRDaGlsZChwcm9iUGxvdCk7XG4gIHJldHVybiBjb250YWluZXI7XG59XG5cbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldFF1aWV0Iiwic291cmNlIjoic2hpbnlJbnB1dCgnYicpIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdtJykifV19
+    eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6Ilxudmlld29mIGIgPSBJbnB1dHMucmFuZ2UoWy01LCA1XSwge3ZhbHVlOiAwLCBzdGVwOiAwLjEsIGxhYmVsOiBcIkludGVyY2VwdFwifSlcbnZpZXdvZiBtID0gSW5wdXRzLnJhbmdlKFstMywgM10sIHt2YWx1ZTogMSwgc3RlcDogMC4xLCBsYWJlbDogXCJTbG9wZVwifSlcblxuZnVuY3Rpb24gbGluZURhdGEoYiwgbSl7XG4gIGNvbnN0IHB0cyA9IFtdO1xuICBmb3IobGV0IHggPSAtMTA7IHggPD0gMTA7IHggKz0gMC41KSBwdHMucHVzaCh7eCwgeTogYiArIG0gKiB4fSk7XG4gIHJldHVybiBwdHM7XG59XG5cbmZ1bmN0aW9uIHByb2JEYXRhKGIsIG0pe1xuICBjb25zdCBwdHMgPSBbXTtcbiAgZm9yKGxldCB4ID0gLTEwOyB4IDw9IDEwOyB4ICs9IDAuNSl7XG4gICAgY29uc3QgbGluID0gYiArIG0gKiB4O1xuICAgIGNvbnN0IHAgPSAxIC8gKDEgKyBNYXRoLmV4cCgtbGluKSk7XG4gICAgcHRzLnB1c2goe3gsIHB9KTtcbiAgfVxuICByZXR1cm4gcHRzO1xufVxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC0yIiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoie1xuICBjb25zdCB3aWR0aCA9IDY4MDtcbiAgY29uc3QgaGVpZ2h0ID0gMjIwO1xuXG4gIGNvbnN0IGNvbnRhaW5lciA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoXCJkaXZcIik7XG4gIGNvbnRhaW5lci5zdHlsZS5kaXNwbGF5ID0gXCJmbGV4XCI7XG4gIGNvbnRhaW5lci5zdHlsZS5mbGV4RGlyZWN0aW9uID0gXCJjb2x1bW5cIjtcbiAgY29udGFpbmVyLnN0eWxlLmdhcCA9IFwiMTJweFwiO1xuXG4gIGNvbnN0IGxvZ2l0UGxvdCA9IFBsb3QucGxvdCh7XG4gICAgd2lkdGgsIGhlaWdodCxcbiAgICB4OiB7ZG9tYWluOiBbLTEwLCAxMF0sIGxhYmVsOiBcInhcIn0sXG4gICAgeToge2RvbWFpbjogWy0xMCwgMTBdLCBsYWJlbDogXCJMb2ctT2Rkc1wifSxcbiAgICBtYXJrczogW1xuICAgICAgUGxvdC5saW5lKGxpbmVEYXRhKGIsIG0pLCB7eDogXCJ4XCIsIHk6IFwieVwiLCBzdHJva2U6IFwic3RlZWxibHVlXCIsIHN0cm9rZVdpZHRoOiAzfSksXG4gICAgICBQbG90LnJ1bGVZKFswXSwge3N0cm9rZTogXCIjMzMzXCJ9KSxcbiAgICAgIFBsb3QucnVsZVgoWzBdLCB7c3Ryb2tlOiBcIiMzMzNcIn0pXG4gICAgXVxuICB9KTtcblxuICBjb25zdCBwcm9iUGxvdCA9IFBsb3QucGxvdCh7XG4gICAgd2lkdGgsIGhlaWdodCxcbiAgICB4OiB7ZG9tYWluOiBbLTEwLCAxMF0sIGxhYmVsOiBcInhcIn0sXG4gICAgeToge2RvbWFpbjogWzAsIDFdLCBsYWJlbDogXCJQcm9iYWJpbGl0eVwifSxcbiAgICBtYXJrczogW1xuICAgICAgUGxvdC5saW5lKHByb2JEYXRhKGIsIG0pLCB7eDogXCJ4XCIsIHk6IFwicFwiLCBzdHJva2U6IFwidG9tYXRvXCIsIHN0cm9rZVdpZHRoOiAzfSksXG4gICAgICBQbG90LnJ1bGVZKFswLjVdLCB7c3Ryb2tlOiBcIiMzMzNcIiwgc3Ryb2tlRGFzaGFycmF5OiBcIjQsNFwifSksXG4gICAgICBQbG90LnJ1bGVYKFswXSwge3N0cm9rZTogXCIjMzMzXCJ9KVxuICAgIF1cbiAgfSk7XG5cbiAgY29udGFpbmVyLmFwcGVuZENoaWxkKGxvZ2l0UGxvdCk7XG4gIGNvbnRhaW5lci5hcHBlbmRDaGlsZChwcm9iUGxvdCk7XG4gIHJldHVybiBjb250YWluZXI7XG59XG5cbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldFF1aWV0Iiwic291cmNlIjoic2hpbnlJbnB1dCgnYicpIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdtJykifV19
     </script>
     <script type="module">
     if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
