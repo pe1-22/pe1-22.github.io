@@ -34,6 +34,14 @@ Github beschränkt manchmal den Zugriff auf Downloads von anonymen Nutzern. Ihr 
 
 Im Anschluss könnt ihr die Übung starten, indem ihr folgenden Befehl in R ausführt (hier für Übung 1): `learnr::run_tutorial(name = "01-stat", package = "pe122")`
 
+#### Übungen mit KI-Integration
+
+Es gibt alle Übungen auch mit KI-Integration. Dabei erhaltet ihr ein KI-generiertes Feedback, immer wenn ihr eine Coding-Aufgabe falsch beantwortet. Um die KI-Integration zu nutzen, müsst ihr folgende zusätzliche Schritte durchführen:
+
+1. Ladet euch Ollama herunter: https://ollama.com/download
+2. Öffnet Ollama. Erstellt einen kostenlosen Nutzeraccount und verknüpft ihn mit eurem Gerät.
+3. Jetzt sollte alles klappen. Startet die Übung mit KI-Integration, indem ihr folgenden Befehl in R ausführt (hier für Übung 1): `learnr::run_tutorial(name = "01-stat-ai", package = "pe122")`
+
 ### Hackathlons
 
 Die Materialien findet ihr auf Moodle.
