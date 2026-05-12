@@ -192,7 +192,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Inhalt</h2>
    
   <ul>
-  <li><a href="#materialien-erweiterte-modellbildung-ki" id="toc-materialien-erweiterte-modellbildung-ki" class="nav-link active" data-scroll-target="#materialien-erweiterte-modellbildung-ki">Materialien Erweiterte Modellbildung &amp; KI</a>
+  <li><a href="#erweiterte-modellbildung-ki" id="toc-erweiterte-modellbildung-ki" class="nav-link active" data-scroll-target="#erweiterte-modellbildung-ki">Erweiterte Modellbildung &amp; KI</a>
   <ul class="collapse">
   <li><a href="#präsentationen" id="toc-präsentationen" class="nav-link" data-scroll-target="#präsentationen">Präsentationen</a></li>
   <li><a href="#übungen" id="toc-übungen" class="nav-link" data-scroll-target="#übungen">Übungen</a></li>
@@ -223,8 +223,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="materialien-erweiterte-modellbildung-ki" class="level2">
-<h2 class="anchored" data-anchor-id="materialien-erweiterte-modellbildung-ki">Materialien Erweiterte Modellbildung &amp; KI</h2>
+<section id="erweiterte-modellbildung-ki" class="level2">
+<h2 class="anchored" data-anchor-id="erweiterte-modellbildung-ki">Erweiterte Modellbildung &amp; KI</h2>
 <section id="präsentationen" class="level3">
 <h3 class="anchored" data-anchor-id="präsentationen">Präsentationen</h3>
 <ul>
@@ -260,13 +260,22 @@ Probleme mit der Installation?
 <ol type="1">
 <li>versucht es später nochmal.</li>
 <li>erstellt einen kostenlosen Github Account und verbindet diesen mit R, damit ihr als authentifizierter Nutzer keine Beschränkungen habt.</li>
-<li>Ladet euch das Package als zip-Datei herunter von Github herunter (grüner Button “Code” &gt; “Download ZIP”). Speichert die Datei in eurem aktuellen Arbeitsverzeichnis. Installiert es manuell mit <code>remotes::install_local("dateipfad/package.zip")</code>. Macht diese Schritte für die folgenden Packages (<strong>in dieser Reihenfolge</strong>): link: <a href="https://github.com/rstudio/gradethis">gradethis</a>, <a href="https://github.com/rstudio/ggcheck">ggcheck</a>, <a href="https://github.com/smnnlt/sportsdata">sportsdata</a>, <a href="https://github.com/pe1-22/pe122">pe122</a>.</li>
+<li>Ladet euch das Package als zip-Datei herunter von Github herunter (grüner Button “Code” &gt; “Download ZIP”). Speichert die Datei in eurem aktuellen Arbeitsverzeichnis. Installiert es manuell mit <code>remotes::install_local("dateipfad/package.zip")</code>. Macht diese Schritte für die folgenden Packages (<strong>in dieser Reihenfolge</strong>): <a href="https://github.com/rstudio/gradethis">gradethis</a>, <a href="https://github.com/rstudio/ggcheck">ggcheck</a>, <a href="https://github.com/smnnlt/sportsdata">sportsdata</a>, <a href="https://github.com/pe1-22/pe122">pe122</a>.</li>
 </ol>
 </section>
 </div>
 </div>
 </div>
 <p>Im Anschluss könnt ihr die Übung starten, indem ihr folgenden Befehl in R ausführt (hier für Übung 1): <code>learnr::run_tutorial(name = "01-stat", package = "pe122")</code></p>
+<section id="übungen-mit-ki-integration" class="level4">
+<h4 class="anchored" data-anchor-id="übungen-mit-ki-integration">Übungen mit KI-Integration</h4>
+<p>Es gibt alle Übungen auch mit KI-Integration. Dabei erhaltet ihr ein KI-generiertes Feedback, immer wenn ihr eine Coding-Aufgabe falsch beantwortet. Um die KI-Integration zu nutzen, müsst ihr folgende zusätzliche Schritte durchführen:</p>
+<ol type="1">
+<li>Ladet euch Ollama herunter: <a href="https://ollama.com/download" class="uri">https://ollama.com/download</a></li>
+<li>Öffnet Ollama. Erstellt einen kostenlosen Nutzeraccount und verknüpft ihn mit eurem Gerät.</li>
+<li>Jetzt sollte alles klappen. Startet die Übung mit KI-Integration, indem ihr folgenden Befehl in R ausführt (hier für Übung 1): <code>learnr::run_tutorial(name = "01-stat-ai", package = "pe122")</code></li>
+</ol>
+</section>
 </section>
 <section id="hackathlons" class="level3">
 <h3 class="anchored" data-anchor-id="hackathlons">Hackathlons</h3>

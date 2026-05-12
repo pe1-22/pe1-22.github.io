@@ -193,9 +193,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Inhalt</h2>
    
   <ul>
-  <li><a href="#modulprüfungen" id="toc-modulprüfungen" class="nav-link active" data-scroll-target="#modulprüfungen">Modulprüfungen</a></li>
-  <li><a href="#vorgaben" id="toc-vorgaben" class="nav-link" data-scroll-target="#vorgaben">Vorgaben</a></li>
-  <li><a href="#bewertungskriterien" id="toc-bewertungskriterien" class="nav-link" data-scroll-target="#bewertungskriterien">Bewertungskriterien</a></li>
+  <li><a href="#modulprüfungen" id="toc-modulprüfungen" class="nav-link active" data-scroll-target="#modulprüfungen">Modulprüfungen</a>
+  <ul class="collapse">
+  <li><a href="#projektpräsentation" id="toc-projektpräsentation" class="nav-link" data-scroll-target="#projektpräsentation">Projektpräsentation</a></li>
+  <li><a href="#dokumentation-in-form-einer-visualisierung" id="toc-dokumentation-in-form-einer-visualisierung" class="nav-link" data-scroll-target="#dokumentation-in-form-einer-visualisierung">Dokumentation (in Form einer Visualisierung)</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -225,19 +227,54 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="modulprüfungen">Modulprüfungen</h2>
 <p>Im Rahmen des Moduls sind zwei benotete Prüfungen zu absolvieren:</p>
 <ol type="1">
-<li>Ein Kurzvortrag (5 min Vortrag + 10 min Diskussion) in dem die Methodik und Ergebnisse einer selbstständig durchgeführten Datenanalyse in 2er-Teams präsentiert werden</li>
-<li>Abgabe einer Dokumentation (Visualisierung inklusive Code zur Reproduktion).</li>
+<li>Eine Projektpräsentation (5 min Vortrag + 10 min Diskussion) in der die Methodik und Ergebnisse einer selbstständig durchgeführten Datenanalyse in 2er-Teams präsentiert werden.</li>
+<li>Abgabe einer Dokumentation (in Form einerVisualisierung inklusive Code zur Reproduktion).</li>
 </ol>
+<section id="projektpräsentation" class="level3">
+<h3 class="anchored" data-anchor-id="projektpräsentation">Projektpräsentation</h3>
+<section id="anforderungen" class="level4">
+<h4 class="anchored" data-anchor-id="anforderungen">Anforderungen</h4>
+<ul>
+<li>Analyse eines sportbezogenen Datensatzes (aus einer vorgegebenen Auswahl an Datensätzen)</li>
+<li>Die Analyse muss eine Form von Modellierung/statistische Auswertung beeinhalten (über rein deskriptive Statistik hinaus)</li>
+<li>Die Analyseidee, -methodik, und -ergebnisse werden in der letzten Semesterwoche im Rahmen des Seminars präsentiert (5 min Kurzpräsentation + 10 min Diskussion)</li>
+<li>das Präsentationsformat ist offen (z.B. revealjs, pptx, pdf)</li>
+<li>die Projekte werden in 2er-Gruppen durchgeführt, wer den Vortrag präsentiert wird unmittelbar vorher ausgewürfelt, die Diskussion wird von beiden Studierenden geführt. Es gibt eine gemeinsame Note.</li>
+</ul>
 </section>
-<section id="vorgaben" class="level2">
-<h2 class="anchored" data-anchor-id="vorgaben">Vorgaben</h2>
-<p>Die konkreten Vorgaben zu den Prüfungen (z.B. welche Datenanalyse, welche Visualisierung, etc.) werden bis zum Start des Semesters bekannt gegeben. Es wird aber auf jeden Fall möglich sein, die Prüfungen mit einem selbstgewählten Datensatz zu einem Themenbereich eurer Wahl durchzuführen.</p>
+<section id="bewertungskriterien" class="level4">
+<h4 class="anchored" data-anchor-id="bewertungskriterien">Bewertungskriterien</h4>
+<ul>
+<li>Inhalt</li>
+<li>Präsentation</li>
+<li>Form</li>
+<li>Diskussion</li>
+<li>Gesamteindruck</li>
+</ul>
 </section>
-<section id="bewertungskriterien" class="level2">
-<h2 class="anchored" data-anchor-id="bewertungskriterien">Bewertungskriterien</h2>
-<p>Die konkreten Bewertungkriterien einschließlich des Punktesystem zur Bewertung der Prüfungen werden ebenfalls bis zum Start des Semesters bekannt gegeben.</p>
+</section>
+<section id="dokumentation-in-form-einer-visualisierung" class="level3">
+<h3 class="anchored" data-anchor-id="dokumentation-in-form-einer-visualisierung">Dokumentation (in Form einer Visualisierung)</h3>
+<section id="anforderungen-1" class="level4">
+<h4 class="anchored" data-anchor-id="anforderungen-1">Anforderungen</h4>
+<ul>
+<li>ein sportbezogener Datensatz (anderer als in Projektpräsentation) wird verarbeitet und visualisiert, die Wahl des Datensatzes ist dabei freigestellt (z.B., Download eines vorhandenen Datensatzes, Webscraping einer Website, eigene Datenerhebung)</li>
+<li>Erstellung einer interaktiven Visualisierung (z.B. in Form eines Dashboard)</li>
+<li>Abgabe als reproduzierbares Packages (in Form eines zip-files mit Daten und kommentierten Code). Der Code soll ohne Fehler auf den Geräten der Dozierenden laufen können und die exakte Visualisierung erstellen.</li>
+</ul>
+</section>
+<section id="bewertungskriterien-1" class="level4">
+<h4 class="anchored" data-anchor-id="bewertungskriterien-1">Bewertungskriterien</h4>
+<ul>
+<li>Reproduzierbarkeit</li>
+<li>Datenauswahl</li>
+<li>Beachtung der Grundprinzipien von Visualierung (angemesser Plottyp, korrekte Darstellung der Daten, Klarheit, …)</li>
+<li>Der Code wird nicht bewertet</li>
+</ul>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->
