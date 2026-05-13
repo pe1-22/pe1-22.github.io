@@ -6,6 +6,7 @@ title: "Lernmaterialien"
 
 ### Präsentationen
 
+-   **00 Intro:** [Slides](resources/00-intro.html)
 -   **01 Lineares Modell:** [Slides](resources/01-linear-model.html)
 -   **02 Lineares Modell — Advanced:** [Slides](resources/02-linear-model-advanced.html)
 -   **03 Logistische Regression:** [Slides](resources/03-logistic-regression.html)
