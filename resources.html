@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d896f935457035fcff2e994dc1028111.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-fd3a37f3e52d7f07cd18f09ab7f8ffed.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -262,16 +262,30 @@ ul.task-list li input[type="checkbox"] {
 <section id="macwindows-api-rate-limit-exceeded" class="level4">
 <h4 class="anchored" data-anchor-id="macwindows-api-rate-limit-exceeded">Mac/Windows: <code>API rate limit exceeded</code></h4>
 <p>Github beschränkt manchmal den Zugriff auf Downloads von anonymen Nutzern. Ihr habt mehrere Möglichkeiten, dieses Problem zu umgehen:</p>
-<ol type="1">
+<ul>
 <li>versucht es später nochmal.</li>
-<li>erstellt einen kostenlosen Github Account und verbindet diesen mit R, damit ihr als authentifizierter Nutzer keine Beschränkungen habt.</li>
-<li>Ladet euch das Package als zip-Datei herunter von Github herunter (grüner Button “Code” &gt; “Download ZIP”). Speichert die Datei in eurem aktuellen Arbeitsverzeichnis. Installiert es manuell mit <code>remotes::install_local("dateipfad/package.zip")</code>. Macht diese Schritte für die folgenden Packages (<strong>in dieser Reihenfolge</strong>): <a href="https://github.com/rstudio/gradethis">gradethis</a>, <a href="https://github.com/rstudio/ggcheck">ggcheck</a>, <a href="https://github.com/smnnlt/sportsdata">sportsdata</a>, <a href="https://github.com/pe1-22/pe122">pe122</a>.</li>
+<li>erstellt einen kostenlosen Github Account und verbindet diesen mit R, damit ihr als authentifizierter Nutzer keine Beschränkungen habt. Dazu befolgt ihr bitte diese Schritte:</li>
+</ul>
+<ol type="1">
+<li>Account auf Github erstellen: <a href="https://github.com" class="uri">https://github.com</a></li>
+<li>R-Package <code>usethis</code> installieren: <code>install.packages("usethis")</code></li>
+<li>In R folgenden Befehl ausführen: <code>usethis::create_github_token()</code>. Folgt den Anweisungen auf der GitHub Website.</li>
+<li>Lasst den Befehl <code>gitcreds::gitcreds_set()</code> in R ausführen, um den Token zu speichern. Falls ihr den Fehler: <code>git not found</code> erhaltet, installiert zunächst git auf eurem Computer: <a href="https://git-scm.com/install/" class="uri">https://git-scm.com/install/</a>. Startet anschließend Positron neu und führt den Befehl <code>gitcreds::gitcreds_set()</code> erneut aus.</li>
+<li>Jetzt sollte alles klappen. Versucht nochmal, das <code>pe122</code> package zu installieren: <code>remotes::install_github("pe1-22/pe122")</code></li>
 </ol>
+<ul>
+<li>Ladet euch das Package als zip-Datei herunter von Github herunter (grüner Button “Code” &gt; “Download ZIP”). Speichert die Datei in eurem aktuellen Arbeitsverzeichnis. Installiert es manuell mit <code>remotes::install_local("dateipfad/package.zip")</code>. Macht diese Schritte für die folgenden Packages (<strong>in dieser Reihenfolge</strong>): <a href="https://github.com/rstudio/gradethis">gradethis</a>, <a href="https://github.com/rstudio/ggcheck">ggcheck</a>, <a href="https://github.com/smnnlt/sportsdata">sportsdata</a>, <a href="https://github.com/pe1-22/pe122">pe122</a>.</li>
+<li>Benutzt die Online-Version (siehe weiter unten)</li>
+</ul>
 </section>
 </div>
 </div>
 </div>
 <p>Im Anschluss könnt ihr die Übung starten, indem ihr folgenden Befehl in R ausführt (hier für Übung 1): <code>learnr::run_tutorial(name = "01-stat", package = "pe122")</code></p>
+<p>Alternativ ist es auch möglich, die Übungen ohne KI-Integration online zu bearbeiten:</p>
+<ul>
+<li><strong>Übung 02</strong>: <a href="https://smnnlt.shinyapps.io/02-stat/">Online</a></li>
+</ul>
 <section id="übungen-mit-ki-integration" class="level4">
 <h4 class="anchored" data-anchor-id="übungen-mit-ki-integration">Übungen mit KI-Integration</h4>
 <p>Es gibt alle Übungen auch mit KI-Integration. Dabei erhaltet ihr ein KI-generiertes Feedback, immer wenn ihr eine Coding-Aufgabe falsch beantwortet. Um die KI-Integration zu nutzen, müsst ihr folgende zusätzliche Schritte durchführen:</p>

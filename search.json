@@ -1,47 +1,98 @@
 [
   {
-    "objectID": "requirements.html",
-    "href": "requirements.html",
-    "title": "Rahmenbedingungen",
+    "objectID": "ai.html",
+    "href": "ai.html",
+    "title": "KI-Nutzung",
     "section": "",
-    "text": "Um am Modul teilnehmen zu können, müssen folgende Voraussetzungen erfüllt sein:\n\nInsgesamt fünf Module aus BAS und SQ abgeschlossen (siehe Zulassungsvoraussetzungen für die PE)\nWir empfehlen dringend, dass ihr das Modul SQ3 bereits abgeschlossen habt\nIm Rahmen der Veranstaltung benötigt ihr einen eigenen Laptop mit Administratorrechten (um Software installieren zu können). Ein Tablet reicht nicht aus. Kontaktiert uns bitte im Vorfeld, wenn ihr keinen eigenen Laptop habt und dennoch am Modul teilnehmen möchtet.",
+    "text": "In diesem Modul ist die Nutzung von künstlicher Intelligenz (KI) zur Bearbeitung von (Prüfungs-)aufgaben ausdrücklich erlaubt. Wir sind realistisch und sehen, dass KI aus dem Studien- und Arbeitsalltag nicht mehr wegzudenken ist. Daher möchten wir euch dabei unterstützen, KI und KI-basierte Ergebnisse besser nutzen, verstehen, und beurteilen zu können.",
     "crumbs": [
       "Informationen zum Modul",
-      "Rahmenbedingungen"
+      "KI-Nutzung"
     ]
   },
   {
-    "objectID": "requirements.html#voraussetzungen",
-    "href": "requirements.html#voraussetzungen",
-    "title": "Rahmenbedingungen",
+    "objectID": "ai.html#generelle-erlaubnis",
+    "href": "ai.html#generelle-erlaubnis",
+    "title": "KI-Nutzung",
     "section": "",
-    "text": "Um am Modul teilnehmen zu können, müssen folgende Voraussetzungen erfüllt sein:\n\nInsgesamt fünf Module aus BAS und SQ abgeschlossen (siehe Zulassungsvoraussetzungen für die PE)\nWir empfehlen dringend, dass ihr das Modul SQ3 bereits abgeschlossen habt\nIm Rahmen der Veranstaltung benötigt ihr einen eigenen Laptop mit Administratorrechten (um Software installieren zu können). Ein Tablet reicht nicht aus. Kontaktiert uns bitte im Vorfeld, wenn ihr keinen eigenen Laptop habt und dennoch am Modul teilnehmen möchtet.",
+    "text": "In diesem Modul ist die Nutzung von künstlicher Intelligenz (KI) zur Bearbeitung von (Prüfungs-)aufgaben ausdrücklich erlaubt. Wir sind realistisch und sehen, dass KI aus dem Studien- und Arbeitsalltag nicht mehr wegzudenken ist. Daher möchten wir euch dabei unterstützen, KI und KI-basierte Ergebnisse besser nutzen, verstehen, und beurteilen zu können.",
     "crumbs": [
       "Informationen zum Modul",
-      "Rahmenbedingungen"
+      "KI-Nutzung"
     ]
   },
   {
-    "objectID": "requirements.html#anmeldung",
-    "href": "requirements.html#anmeldung",
-    "title": "Rahmenbedingungen",
-    "section": "Anmeldung",
-    "text": "Anmeldung\nDie Belegung erfolgt regulär über mySpoho innerhalb der LVB-Phasen. Eine Teilnahme auf weißen Schein oder ein Nachrücken in der ersten Semesterwoche ist in der Regel möglich, bitte kontaktiert uns hierzu aber im Vorfeld per E-Mail.",
+    "objectID": "ai.html#ki-in-der-lehre-im-modul",
+    "href": "ai.html#ki-in-der-lehre-im-modul",
+    "title": "KI-Nutzung",
+    "section": "KI in der Lehre im Modul",
+    "text": "KI in der Lehre im Modul\nWir selbst setzen für unserer Lehre in diesem Modul auf KI. Im Rahmen eines durch die “Lehrförderung für die Akademische Zukunftsfähigkeit” bewilligten Projektes erstellen wir Übungsaufgaben zur eigenständigen Bearbeitung, zu denen ihr ein unmittelbares und individuelles KI-generiertes Feedback erhaltet. Dazu greifen wir auf ein lokales KI-System zurück, welches ihr auf euren Laptop installiert. Wie das alles geht, lernt ihr im Rahmen des Moduls.\nZudem hilft uns KI in Teilen bei der Erstellung von Lehrinhalten und Übungsaufgaben. So kann es etwa sein, dass der zugrundeliegende Programmiercode für manche Übungsaufgaben, oder einzelne Folien die wir präsentieren mit Hilfe von KI-System erstellt wurden. Bei der Bewertungen von Prüfungsleistungen nutzen wir keine KI!",
     "crumbs": [
       "Informationen zum Modul",
-      "Rahmenbedingungen"
+      "KI-Nutzung"
     ]
   },
   {
-    "objectID": "requirements.html#teilnahme",
-    "href": "requirements.html#teilnahme",
-    "title": "Rahmenbedingungen",
-    "section": "Teilnahme",
-    "text": "Teilnahme\nIn den drei Seminarveranstaltungen des Moduls gibt es keine Anwesenheitspflicht. Bei dem Modul handelt es sich um ein Wahlmodul und ihr seid freiwillig hier. Wir versuchen die Einheiten so zu gestalten, dass ihr bestmöglich im Rahmen der Veranstaltung lernen könnt.",
+    "objectID": "ai.html#datenschutz-it-sicherheit-ki-richtlinien",
+    "href": "ai.html#datenschutz-it-sicherheit-ki-richtlinien",
+    "title": "KI-Nutzung",
+    "section": "Datenschutz, IT-Sicherheit, KI-Richtlinien",
+    "text": "Datenschutz, IT-Sicherheit, KI-Richtlinien\nFür die Bearbeitung der Übungsaufgaben benötigt ihr ein lokales KI-System (Ollama). Diese Open-Source Software ist kostenlos und kann ohne Anmeldung installiert und genutzt werden. Da es sich um ein lokales KI-System handelt, verbleiben alle eure Daten und Eingaben auf eurem Gerät und werden nicht geteilt. Darüber hinaus könnt ihr bei Bedarf selbstverständlich auch Online-Tools kommerzieller Anbieter nutzen. Dies wird jedoch weder von uns erwartet noch ist es für das Modul erforderlich. Bitte beachtet bei allen Tätigkeiten die Einhaltung der aktuell gültigen KI-Richtlinien unserer Universität.",
     "crumbs": [
       "Informationen zum Modul",
-      "Rahmenbedingungen"
+      "KI-Nutzung"
     ]
+  },
+  {
+    "objectID": "ai.html#ki-in-prüfungsleistungen",
+    "href": "ai.html#ki-in-prüfungsleistungen",
+    "title": "KI-Nutzung",
+    "section": "KI in Prüfungsleistungen",
+    "text": "KI in Prüfungsleistungen\nIhr dürft ausdrücklich KI im Rahmen der Prüfungsleistungen des Moduls benutzen, sofern ihr transparent macht welche Tools ihr für welche Zwecke genutzt habt. Beachtet jedoch, dass wir gezielt Prüfungsformate verwenden, bei denen wir davon ausgehen, dass die zentrale Leistung nicht von einer KI übernommen werden kann. Bei der Präsentation bedeutet dass, das wir in der Bewertung einen besonderen Fokus auf die Diskussion legen. Ihr sollten alle vorgestellten Inhalte soweit verstanden haben, dass ihr in der Lage seid sie kritisch vor der Gruppe zu verteidigen und zu diskutieren. Bei der Abgabe der Visualisierung handelt es sich in erster Linie um eine kreative Aufgabe, die nur bedingt von einer KI erfüllt werden kann. Zudem legen wir hier großen Wert auf die Reproduzierbarkeit der Abgabe. Das heißt, wir erwarten, dass wir mit Hilfe des abgegebenen Codes die Visualisierung erfolgreich auf unseren eigenen Geräten nachbauen können. Auch dies erfordert bei der Erstellung der Abgabe die Anwendung eigener erlernter Kompetenzen über die Nutzung von KI hinaus.",
+    "crumbs": [
+      "Informationen zum Modul",
+      "KI-Nutzung"
+    ]
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Lernmaterialien",
+    "section": "",
+    "text": "00 Intro: Slides\n01 Lineares Modell: Slides\n02 Lineares Modell — Advanced: Slides\n03 Logistische Regression: Slides\n\nWeitere Präsentationen werden in Kürze ergänzt.\n\n\n\nFür die Übungen benötigt ihr das pe122 package. Ihr könnt es mit dem folgenden Befehl installieren:\nremotes::install_github(\"pe1-22/pe122\")\n\n\n\n\n\n\nImportantProbleme mit der Installation?\n\n\n\n\n\n\n\nIhr benötigt die Command Line Tools von Xcode. Diese könnt ihr installieren, indem ihr im Terminal den folgenden Befehl ausführt: xcode-select --install. Danach R neu starten und die Installation des pe122 packages erneut versuchen.\n\n\n\nGithub beschränkt manchmal den Zugriff auf Downloads von anonymen Nutzern. Ihr habt mehrere Möglichkeiten, dieses Problem zu umgehen:\n\nversucht es später nochmal.\nerstellt einen kostenlosen Github Account und verbindet diesen mit R, damit ihr als authentifizierter Nutzer keine Beschränkungen habt. Dazu befolgt ihr bitte diese Schritte:\n\n\nAccount auf Github erstellen: https://github.com\nR-Package usethis installieren: install.packages(\"usethis\")\nIn R folgenden Befehl ausführen: usethis::create_github_token(). Folgt den Anweisungen auf der GitHub Website.\nLasst den Befehl gitcreds::gitcreds_set() in R ausführen, um den Token zu speichern. Falls ihr den Fehler: git not found erhaltet, installiert zunächst git auf eurem Computer: https://git-scm.com/install/. Startet anschließend Positron neu und führt den Befehl gitcreds::gitcreds_set() erneut aus.\nJetzt sollte alles klappen. Versucht nochmal, das pe122 package zu installieren: remotes::install_github(\"pe1-22/pe122\")\n\n\nLadet euch das Package als zip-Datei herunter von Github herunter (grüner Button “Code” &gt; “Download ZIP”). Speichert die Datei in eurem aktuellen Arbeitsverzeichnis. Installiert es manuell mit remotes::install_local(\"dateipfad/package.zip\"). Macht diese Schritte für die folgenden Packages (in dieser Reihenfolge): gradethis, ggcheck, sportsdata, pe122.\nBenutzt die Online-Version (siehe weiter unten)\n\n\n\n\n\nIm Anschluss könnt ihr die Übung starten, indem ihr folgenden Befehl in R ausführt (hier für Übung 1): learnr::run_tutorial(name = \"01-stat\", package = \"pe122\")\nAlternativ ist es auch möglich, die Übungen ohne KI-Integration online zu bearbeiten:\n\nÜbung 02: Online\n\n\n\nEs gibt alle Übungen auch mit KI-Integration. Dabei erhaltet ihr ein KI-generiertes Feedback, immer wenn ihr eine Coding-Aufgabe falsch beantwortet. Um die KI-Integration zu nutzen, müsst ihr folgende zusätzliche Schritte durchführen:\n\nLadet euch Ollama herunter: https://ollama.com/download\nÖffnet Ollama. Erstellt einen kostenlosen Nutzeraccount und verknüpft ihn mit eurem Gerät.\nJetzt sollte alles klappen. Startet die Übung mit KI-Integration, indem ihr folgenden Befehl in R ausführt (hier für Übung 1): learnr::run_tutorial(name = \"01-stat-ai\", package = \"pe122\")\n\n\n\n\n\nDie Materialien findet ihr auf Moodle.",
+    "crumbs": [
+      "Lernmaterialien",
+      "Ressourcen"
+    ]
+  },
+  {
+    "objectID": "resources.html#erweiterte-modellbildung-ki",
+    "href": "resources.html#erweiterte-modellbildung-ki",
+    "title": "Lernmaterialien",
+    "section": "",
+    "text": "00 Intro: Slides\n01 Lineares Modell: Slides\n02 Lineares Modell — Advanced: Slides\n03 Logistische Regression: Slides\n\nWeitere Präsentationen werden in Kürze ergänzt.\n\n\n\nFür die Übungen benötigt ihr das pe122 package. Ihr könnt es mit dem folgenden Befehl installieren:\nremotes::install_github(\"pe1-22/pe122\")\n\n\n\n\n\n\nImportantProbleme mit der Installation?\n\n\n\n\n\n\n\nIhr benötigt die Command Line Tools von Xcode. Diese könnt ihr installieren, indem ihr im Terminal den folgenden Befehl ausführt: xcode-select --install. Danach R neu starten und die Installation des pe122 packages erneut versuchen.\n\n\n\nGithub beschränkt manchmal den Zugriff auf Downloads von anonymen Nutzern. Ihr habt mehrere Möglichkeiten, dieses Problem zu umgehen:\n\nversucht es später nochmal.\nerstellt einen kostenlosen Github Account und verbindet diesen mit R, damit ihr als authentifizierter Nutzer keine Beschränkungen habt. Dazu befolgt ihr bitte diese Schritte:\n\n\nAccount auf Github erstellen: https://github.com\nR-Package usethis installieren: install.packages(\"usethis\")\nIn R folgenden Befehl ausführen: usethis::create_github_token(). Folgt den Anweisungen auf der GitHub Website.\nLasst den Befehl gitcreds::gitcreds_set() in R ausführen, um den Token zu speichern. Falls ihr den Fehler: git not found erhaltet, installiert zunächst git auf eurem Computer: https://git-scm.com/install/. Startet anschließend Positron neu und führt den Befehl gitcreds::gitcreds_set() erneut aus.\nJetzt sollte alles klappen. Versucht nochmal, das pe122 package zu installieren: remotes::install_github(\"pe1-22/pe122\")\n\n\nLadet euch das Package als zip-Datei herunter von Github herunter (grüner Button “Code” &gt; “Download ZIP”). Speichert die Datei in eurem aktuellen Arbeitsverzeichnis. Installiert es manuell mit remotes::install_local(\"dateipfad/package.zip\"). Macht diese Schritte für die folgenden Packages (in dieser Reihenfolge): gradethis, ggcheck, sportsdata, pe122.\nBenutzt die Online-Version (siehe weiter unten)\n\n\n\n\n\nIm Anschluss könnt ihr die Übung starten, indem ihr folgenden Befehl in R ausführt (hier für Übung 1): learnr::run_tutorial(name = \"01-stat\", package = \"pe122\")\nAlternativ ist es auch möglich, die Übungen ohne KI-Integration online zu bearbeiten:\n\nÜbung 02: Online\n\n\n\nEs gibt alle Übungen auch mit KI-Integration. Dabei erhaltet ihr ein KI-generiertes Feedback, immer wenn ihr eine Coding-Aufgabe falsch beantwortet. Um die KI-Integration zu nutzen, müsst ihr folgende zusätzliche Schritte durchführen:\n\nLadet euch Ollama herunter: https://ollama.com/download\nÖffnet Ollama. Erstellt einen kostenlosen Nutzeraccount und verknüpft ihn mit eurem Gerät.\nJetzt sollte alles klappen. Startet die Übung mit KI-Integration, indem ihr folgenden Befehl in R ausführt (hier für Übung 1): learnr::run_tutorial(name = \"01-stat-ai\", package = \"pe122\")\n\n\n\n\n\nDie Materialien findet ihr auf Moodle.",
+    "crumbs": [
+      "Lernmaterialien",
+      "Ressourcen"
+    ]
+  },
+  {
+    "objectID": "datasets.html",
+    "href": "datasets.html",
+    "title": "Datensätze",
+    "section": "",
+    "text": "Hier sind Links zu Datensätzen, die ihr verwenden könnt:\n\nsportsdata package Github. Wird bei Installation des pe122 packages automatisch mit installiert. Erhält eine Reihe von Datensätzen aus unterschiedlichen Sportbereichen, die direkt in R verwendet werden können, indem ihr das package mit library(sportsdata) ladet. Mehr Informationen zu den enthaltenen Datensätzen findet auf der GitHub Seite des packages.\nKaggle Kaggle. Auf der Plattform Kaggle findet ihr eine große Auswahl an gut dokumentierten Datensätzen aus den unterschiedlichsten Bereichen. Ihr könnt die Datensätze direkt auf der Website als CSV herunterladen, eventuell benötigt ihr dafür einen kostenlosen Account.\nSports-Statistics.com Website. Auf dieser Seite findet ihr eine Liste mit Datensätzen aus verschiedenen Sportarten.\nSports Dataverse GitHub. Eine Reihe von R Packages zur Analyse von Sportdaten, die auch Datensätze enthalten. Mehr Informationen zu den enthaltenen Datensätzen findet auf der GitHub Seite des packages.\nSCORE Sports Data Repository Website. Eine große Sammlung von Datensätzen aus verschiedenen Sportarten, die direkt auf der Website ohne Registrierung als CSV heruntergeladen werden können.",
+    "crumbs": [
+      "Lernmaterialien",
+      "Datensätze"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "PE 1.22 - Fortgeschrittene Datenanalyse, Statistik und Visualisierung",
+    "section": "",
+    "text": "Auf dieser Website findet ihr alle Informationen rund um das Bachelormodul PE 1.22 an der Deutschen Sporthochschule Köln.\nIn diesem Modul lernt ihr\n\neigene Datenanalysen zu programmieren\ndie statistischen Grundlagen hinter Machine Learning und Deep Learning\nDaten und Auswertungen ansprechend zu visualisieren\nDatenanalyse und KI auch aus ethischer Sicht kritisch zu beurteilen\n\nWir befassen uns in erster Linie mit Daten aus verschiedenen Bereichen des Sports (Leistungsdiagnostik, Ergebnisdaten, Sportökonomie, Gesundheit). Dabei habt ihr selbst die Möglichkeit eigene thematische Schwerpunkte zu setzen, indem ihr euch eigene Datensätze sucht oder eine Auswahl aus einem vorhandenen Pool von Datensätzen trefft.\nIhr braucht keinerlei Vorkenntnisse im Programmieren um an diesem Modul teilzunehmen. Alle notwendigen Grundlagen werden zu Beginn des Moduls vermittelt. Das Modul ist so aufgebaut, dass ihr Schritt für Schritt an die Themen herangeführt werdet.\nDas nächstes Mal angeboten wird die PE 1.22 im Sommersemester 2026."
   },
   {
     "objectID": "LICENSE.html",
@@ -116,102 +167,14 @@
     ]
   },
   {
-    "objectID": "ai.html",
-    "href": "ai.html",
-    "title": "KI-Nutzung",
+    "objectID": "goals.html",
+    "href": "goals.html",
+    "title": "Lernziele",
     "section": "",
-    "text": "In diesem Modul ist die Nutzung von künstlicher Intelligenz (KI) zur Bearbeitung von (Prüfungs-)aufgaben ausdrücklich erlaubt. Wir sind realistisch und sehen, dass KI aus dem Studien- und Arbeitsalltag nicht mehr wegzudenken ist. Daher möchten wir euch dabei unterstützen, KI und KI-basierte Ergebnisse besser nutzen, verstehen, und beurteilen zu können.",
+    "text": "In diesem Modul lernt ihr:\n\nDaten aus unterschiedlichen Sportbereichen mit Hilfe von Programmiercode zu analysieren.\ndie Grundlagen von fortgeschrittenen statistischen Verfahren (auch Machine Learning und Deep Learning).\nDie Prinzipien und praktische Umsetzung erfolgreicher Visualisierung und Kommunikation von Daten.\nPotenziale und Limitationen komplexer Modelle, wie etwa KI, aus technischer und ethischer Sicht zu diskutieren.\n\nFür mehr Details zu den Zielen der Veranstaltungen findet ihr hier das aktuelle Modulhandbuch: PDF.",
     "crumbs": [
       "Informationen zum Modul",
-      "KI-Nutzung"
-    ]
-  },
-  {
-    "objectID": "ai.html#generelle-erlaubnis",
-    "href": "ai.html#generelle-erlaubnis",
-    "title": "KI-Nutzung",
-    "section": "",
-    "text": "In diesem Modul ist die Nutzung von künstlicher Intelligenz (KI) zur Bearbeitung von (Prüfungs-)aufgaben ausdrücklich erlaubt. Wir sind realistisch und sehen, dass KI aus dem Studien- und Arbeitsalltag nicht mehr wegzudenken ist. Daher möchten wir euch dabei unterstützen, KI und KI-basierte Ergebnisse besser nutzen, verstehen, und beurteilen zu können.",
-    "crumbs": [
-      "Informationen zum Modul",
-      "KI-Nutzung"
-    ]
-  },
-  {
-    "objectID": "ai.html#ki-in-der-lehre-im-modul",
-    "href": "ai.html#ki-in-der-lehre-im-modul",
-    "title": "KI-Nutzung",
-    "section": "KI in der Lehre im Modul",
-    "text": "KI in der Lehre im Modul\nWir selbst setzen für unserer Lehre in diesem Modul auf KI. Im Rahmen eines durch die “Lehrförderung für die Akademische Zukunftsfähigkeit” bewilligten Projektes erstellen wir Übungsaufgaben zur eigenständigen Bearbeitung, zu denen ihr ein unmittelbares und individuelles KI-generiertes Feedback erhaltet. Dazu greifen wir auf ein lokales KI-System zurück, welches ihr auf euren Laptop installiert. Wie das alles geht, lernt ihr im Rahmen des Moduls.\nZudem hilft uns KI in Teilen bei der Erstellung von Lehrinhalten und Übungsaufgaben. So kann es etwa sein, dass der zugrundeliegende Programmiercode für manche Übungsaufgaben, oder einzelne Folien die wir präsentieren mit Hilfe von KI-System erstellt wurden. Bei der Bewertungen von Prüfungsleistungen nutzen wir keine KI!",
-    "crumbs": [
-      "Informationen zum Modul",
-      "KI-Nutzung"
-    ]
-  },
-  {
-    "objectID": "ai.html#datenschutz-it-sicherheit-ki-richtlinien",
-    "href": "ai.html#datenschutz-it-sicherheit-ki-richtlinien",
-    "title": "KI-Nutzung",
-    "section": "Datenschutz, IT-Sicherheit, KI-Richtlinien",
-    "text": "Datenschutz, IT-Sicherheit, KI-Richtlinien\nFür die Bearbeitung der Übungsaufgaben benötigt ihr ein lokales KI-System (Ollama). Diese Open-Source Software ist kostenlos und kann ohne Anmeldung installiert und genutzt werden. Da es sich um ein lokales KI-System handelt, verbleiben alle eure Daten und Eingaben auf eurem Gerät und werden nicht geteilt. Darüber hinaus könnt ihr bei Bedarf selbstverständlich auch Online-Tools kommerzieller Anbieter nutzen. Dies wird jedoch weder von uns erwartet noch ist es für das Modul erforderlich. Bitte beachtet bei allen Tätigkeiten die Einhaltung der aktuell gültigen KI-Richtlinien unserer Universität.",
-    "crumbs": [
-      "Informationen zum Modul",
-      "KI-Nutzung"
-    ]
-  },
-  {
-    "objectID": "ai.html#ki-in-prüfungsleistungen",
-    "href": "ai.html#ki-in-prüfungsleistungen",
-    "title": "KI-Nutzung",
-    "section": "KI in Prüfungsleistungen",
-    "text": "KI in Prüfungsleistungen\nIhr dürft ausdrücklich KI im Rahmen der Prüfungsleistungen des Moduls benutzen, sofern ihr transparent macht welche Tools ihr für welche Zwecke genutzt habt. Beachtet jedoch, dass wir gezielt Prüfungsformate verwenden, bei denen wir davon ausgehen, dass die zentrale Leistung nicht von einer KI übernommen werden kann. Bei der Präsentation bedeutet dass, das wir in der Bewertung einen besonderen Fokus auf die Diskussion legen. Ihr sollten alle vorgestellten Inhalte soweit verstanden haben, dass ihr in der Lage seid sie kritisch vor der Gruppe zu verteidigen und zu diskutieren. Bei der Abgabe der Visualisierung handelt es sich in erster Linie um eine kreative Aufgabe, die nur bedingt von einer KI erfüllt werden kann. Zudem legen wir hier großen Wert auf die Reproduzierbarkeit der Abgabe. Das heißt, wir erwarten, dass wir mit Hilfe des abgegebenen Codes die Visualisierung erfolgreich auf unseren eigenen Geräten nachbauen können. Auch dies erfordert bei der Erstellung der Abgabe die Anwendung eigener erlernter Kompetenzen über die Nutzung von KI hinaus.",
-    "crumbs": [
-      "Informationen zum Modul",
-      "KI-Nutzung"
-    ]
-  },
-  {
-    "objectID": "team.html",
-    "href": "team.html",
-    "title": "Dozierende",
-    "section": "",
-    "text": "Name\nE-Mail\n\n\n\n\n\nBjörn Braunstein\nDozent\nbraunstein[at]dshs-koeln.de\n\n\n\nSimon Nolte\nDozent, Modulleiter\ns.nolte[at]dshs-koeln.de\n\n\n\nRobert Rein\nDozent\nr.rein[at]dshs-koeln.de\n\n\n\nChiara Heisel\nWissenschaftliche Hilfskraft",
-    "crumbs": [
-      "Informationen zum Modul",
-      "Dozierende"
-    ]
-  },
-  {
-    "objectID": "exams.html",
-    "href": "exams.html",
-    "title": "Prüfungen",
-    "section": "",
-    "text": "Im Rahmen des Moduls sind zwei benotete Prüfungen zu absolvieren:\n\nEine Projektpräsentation (5 min Vortrag + 10 min Diskussion) in der die Methodik und Ergebnisse einer selbstständig durchgeführten Datenanalyse in 2er-Teams präsentiert werden.\nAbgabe einer Dokumentation (in Form einer Visualisierung inklusive Code zur Reproduktion).\n\n\n\n\n\n\nAnalyse eines sportbezogenen Datensatzes (aus einer vorgegebenen Auswahl an Datensätzen).\nDie Analyse muss eine Form von Modellierung/statistische Auswertung beeinhalten (über rein deskriptive Statistik hinaus).\nDie Analyseidee, -methodik, und -ergebnisse werden in der letzten Semesterwoche im Rahmen des Seminars präsentiert (5 min Kurzpräsentation + 10 min Diskussion).\ndas Präsentationsformat ist offen (z.B. revealjs, pptx, pdf).\ndie Projekte werden in 2er-Gruppen durchgeführt, wer den Vortrag präsentiert wird unmittelbar vorher ausgewürfelt, die Diskussion wird von beiden Studierenden geführt. Es gibt eine gemeinsame Note.\n\n\n\n\n\nInhalt\nPräsentation\nForm\nDiskussion\nGesamteindruck\n\n\n\n\n\n\n\n\nein sportbezogener Datensatz (anderer als in Projektpräsentation) wird verarbeitet und visualisiert. Die Wahl des Datensatzes ist dabei freigestellt (z.B., Download eines vorhandenen Datensatzes, Webscraping einer Website, eigene Datenerhebung).\nErstellung einer interaktiven Visualisierung (z.B. in Form eines Dashboard).\nAbgabe als reproduzierbares Packages (in Form eines zip-files mit Daten und kommentiertem Code). Der Code soll ohne Fehler auf den Geräten der Dozierenden laufen können und die exakte Visualisierung erstellen.\n\n\n\n\n\nReproduzierbarkeit\nDatenauswahl\nBeachtung der Grundprinzipien von Visualierung (angemesser Plottyp, korrekte Darstellung der Daten, Klarheit, …)\nDer Code wird nicht bewertet",
-    "crumbs": [
-      "Informationen zum Modul",
-      "Prüfungen"
-    ]
-  },
-  {
-    "objectID": "exams.html#modulprüfungen",
-    "href": "exams.html#modulprüfungen",
-    "title": "Prüfungen",
-    "section": "",
-    "text": "Im Rahmen des Moduls sind zwei benotete Prüfungen zu absolvieren:\n\nEine Projektpräsentation (5 min Vortrag + 10 min Diskussion) in der die Methodik und Ergebnisse einer selbstständig durchgeführten Datenanalyse in 2er-Teams präsentiert werden.\nAbgabe einer Dokumentation (in Form einer Visualisierung inklusive Code zur Reproduktion).\n\n\n\n\n\n\nAnalyse eines sportbezogenen Datensatzes (aus einer vorgegebenen Auswahl an Datensätzen).\nDie Analyse muss eine Form von Modellierung/statistische Auswertung beeinhalten (über rein deskriptive Statistik hinaus).\nDie Analyseidee, -methodik, und -ergebnisse werden in der letzten Semesterwoche im Rahmen des Seminars präsentiert (5 min Kurzpräsentation + 10 min Diskussion).\ndas Präsentationsformat ist offen (z.B. revealjs, pptx, pdf).\ndie Projekte werden in 2er-Gruppen durchgeführt, wer den Vortrag präsentiert wird unmittelbar vorher ausgewürfelt, die Diskussion wird von beiden Studierenden geführt. Es gibt eine gemeinsame Note.\n\n\n\n\n\nInhalt\nPräsentation\nForm\nDiskussion\nGesamteindruck\n\n\n\n\n\n\n\n\nein sportbezogener Datensatz (anderer als in Projektpräsentation) wird verarbeitet und visualisiert. Die Wahl des Datensatzes ist dabei freigestellt (z.B., Download eines vorhandenen Datensatzes, Webscraping einer Website, eigene Datenerhebung).\nErstellung einer interaktiven Visualisierung (z.B. in Form eines Dashboard).\nAbgabe als reproduzierbares Packages (in Form eines zip-files mit Daten und kommentiertem Code). Der Code soll ohne Fehler auf den Geräten der Dozierenden laufen können und die exakte Visualisierung erstellen.\n\n\n\n\n\nReproduzierbarkeit\nDatenauswahl\nBeachtung der Grundprinzipien von Visualierung (angemesser Plottyp, korrekte Darstellung der Daten, Klarheit, …)\nDer Code wird nicht bewertet",
-    "crumbs": [
-      "Informationen zum Modul",
-      "Prüfungen"
-    ]
-  },
-  {
-    "objectID": "datasets.html",
-    "href": "datasets.html",
-    "title": "Datensätze",
-    "section": "",
-    "text": "Hier sind Links zu Datensätzen, die ihr verwenden könnt:\n\nsportsdata package Github. Wird bei Installation des pe122 packages automatisch mit installiert. Erhält eine Reihe von Datensätzen aus unterschiedlichen Sportbereichen, die direkt in R verwendet werden können, indem ihr das package mit library(sportsdata) ladet. Mehr Informationen zu den enthaltenen Datensätzen findet auf der GitHub Seite des packages.\nKaggle Kaggle. Auf der Plattform Kaggle findet ihr eine große Auswahl an gut dokumentierten Datensätzen aus den unterschiedlichsten Bereichen. Ihr könnt die Datensätze direkt auf der Website als CSV herunterladen, eventuell benötigt ihr dafür einen kostenlosen Account.\nSports-Statistics.com Website. Auf dieser Seite findet ihr eine Liste mit Datensätzen aus verschiedenen Sportarten.\nSports Dataverse GitHub. Eine Reihe von R Packages zur Analyse von Sportdaten, die auch Datensätze enthalten. Mehr Informationen zu den enthaltenen Datensätzen findet auf der GitHub Seite des packages.\nSCORE Sports Data Repository Website. Eine große Sammlung von Datensätzen aus verschiedenen Sportarten, die direkt auf der Website ohne Registrierung als CSV heruntergeladen werden können.",
-    "crumbs": [
-      "Lernmaterialien",
-      "Datensätze"
+      "Lernziele"
     ]
   },
   {
@@ -248,43 +211,80 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "PE 1.22 - Fortgeschrittene Datenanalyse, Statistik und Visualisierung",
+    "objectID": "requirements.html",
+    "href": "requirements.html",
+    "title": "Rahmenbedingungen",
     "section": "",
-    "text": "Auf dieser Website findet ihr alle Informationen rund um das Bachelormodul PE 1.22 an der Deutschen Sporthochschule Köln.\nIn diesem Modul lernt ihr\n\neigene Datenanalysen zu programmieren\ndie statistischen Grundlagen hinter Machine Learning und Deep Learning\nDaten und Auswertungen ansprechend zu visualisieren\nDatenanalyse und KI auch aus ethischer Sicht kritisch zu beurteilen\n\nWir befassen uns in erster Linie mit Daten aus verschiedenen Bereichen des Sports (Leistungsdiagnostik, Ergebnisdaten, Sportökonomie, Gesundheit). Dabei habt ihr selbst die Möglichkeit eigene thematische Schwerpunkte zu setzen, indem ihr euch eigene Datensätze sucht oder eine Auswahl aus einem vorhandenen Pool von Datensätzen trefft.\nIhr braucht keinerlei Vorkenntnisse im Programmieren um an diesem Modul teilzunehmen. Alle notwendigen Grundlagen werden zu Beginn des Moduls vermittelt. Das Modul ist so aufgebaut, dass ihr Schritt für Schritt an die Themen herangeführt werdet.\nDas nächstes Mal angeboten wird die PE 1.22 im Sommersemester 2026."
-  },
-  {
-    "objectID": "goals.html",
-    "href": "goals.html",
-    "title": "Lernziele",
-    "section": "",
-    "text": "In diesem Modul lernt ihr:\n\nDaten aus unterschiedlichen Sportbereichen mit Hilfe von Programmiercode zu analysieren.\ndie Grundlagen von fortgeschrittenen statistischen Verfahren (auch Machine Learning und Deep Learning).\nDie Prinzipien und praktische Umsetzung erfolgreicher Visualisierung und Kommunikation von Daten.\nPotenziale und Limitationen komplexer Modelle, wie etwa KI, aus technischer und ethischer Sicht zu diskutieren.\n\nFür mehr Details zu den Zielen der Veranstaltungen findet ihr hier das aktuelle Modulhandbuch: PDF.",
+    "text": "Um am Modul teilnehmen zu können, müssen folgende Voraussetzungen erfüllt sein:\n\nInsgesamt fünf Module aus BAS und SQ abgeschlossen (siehe Zulassungsvoraussetzungen für die PE)\nWir empfehlen dringend, dass ihr das Modul SQ3 bereits abgeschlossen habt\nIm Rahmen der Veranstaltung benötigt ihr einen eigenen Laptop mit Administratorrechten (um Software installieren zu können). Ein Tablet reicht nicht aus. Kontaktiert uns bitte im Vorfeld, wenn ihr keinen eigenen Laptop habt und dennoch am Modul teilnehmen möchtet.",
     "crumbs": [
       "Informationen zum Modul",
-      "Lernziele"
+      "Rahmenbedingungen"
     ]
   },
   {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "Lernmaterialien",
+    "objectID": "requirements.html#voraussetzungen",
+    "href": "requirements.html#voraussetzungen",
+    "title": "Rahmenbedingungen",
     "section": "",
-    "text": "00 Intro: Slides\n01 Lineares Modell: Slides\n02 Lineares Modell — Advanced: Slides\n03 Logistische Regression: Slides\n\nWeitere Präsentationen werden in Kürze ergänzt.\n\n\n\nFür die Übungen benötigt ihr das pe122 package. Ihr könnt es mit dem folgenden Befehl installieren:\nremotes::install_github(\"pe1-22/pe122\")\n\n\n\n\n\n\nImportantProbleme mit der Installation?\n\n\n\n\n\n\n\nIhr benötigt die Command Line Tools von Xcode. Diese könnt ihr installieren, indem ihr im Terminal den folgenden Befehl ausführt: xcode-select --install. Danach R neu starten und die Installation des pe122 packages erneut versuchen.\n\n\n\nGithub beschränkt manchmal den Zugriff auf Downloads von anonymen Nutzern. Ihr habt mehrere Möglichkeiten, dieses Problem zu umgehen:\n\nversucht es später nochmal.\nerstellt einen kostenlosen Github Account und verbindet diesen mit R, damit ihr als authentifizierter Nutzer keine Beschränkungen habt.\nLadet euch das Package als zip-Datei herunter von Github herunter (grüner Button “Code” &gt; “Download ZIP”). Speichert die Datei in eurem aktuellen Arbeitsverzeichnis. Installiert es manuell mit remotes::install_local(\"dateipfad/package.zip\"). Macht diese Schritte für die folgenden Packages (in dieser Reihenfolge): gradethis, ggcheck, sportsdata, pe122.\n\n\n\n\n\nIm Anschluss könnt ihr die Übung starten, indem ihr folgenden Befehl in R ausführt (hier für Übung 1): learnr::run_tutorial(name = \"01-stat\", package = \"pe122\")\n\n\nEs gibt alle Übungen auch mit KI-Integration. Dabei erhaltet ihr ein KI-generiertes Feedback, immer wenn ihr eine Coding-Aufgabe falsch beantwortet. Um die KI-Integration zu nutzen, müsst ihr folgende zusätzliche Schritte durchführen:\n\nLadet euch Ollama herunter: https://ollama.com/download\nÖffnet Ollama. Erstellt einen kostenlosen Nutzeraccount und verknüpft ihn mit eurem Gerät.\nJetzt sollte alles klappen. Startet die Übung mit KI-Integration, indem ihr folgenden Befehl in R ausführt (hier für Übung 1): learnr::run_tutorial(name = \"01-stat-ai\", package = \"pe122\")\n\n\n\n\n\nDie Materialien findet ihr auf Moodle.",
+    "text": "Um am Modul teilnehmen zu können, müssen folgende Voraussetzungen erfüllt sein:\n\nInsgesamt fünf Module aus BAS und SQ abgeschlossen (siehe Zulassungsvoraussetzungen für die PE)\nWir empfehlen dringend, dass ihr das Modul SQ3 bereits abgeschlossen habt\nIm Rahmen der Veranstaltung benötigt ihr einen eigenen Laptop mit Administratorrechten (um Software installieren zu können). Ein Tablet reicht nicht aus. Kontaktiert uns bitte im Vorfeld, wenn ihr keinen eigenen Laptop habt und dennoch am Modul teilnehmen möchtet.",
     "crumbs": [
-      "Lernmaterialien",
-      "Ressourcen"
+      "Informationen zum Modul",
+      "Rahmenbedingungen"
     ]
   },
   {
-    "objectID": "resources.html#erweiterte-modellbildung-ki",
-    "href": "resources.html#erweiterte-modellbildung-ki",
-    "title": "Lernmaterialien",
-    "section": "",
-    "text": "00 Intro: Slides\n01 Lineares Modell: Slides\n02 Lineares Modell — Advanced: Slides\n03 Logistische Regression: Slides\n\nWeitere Präsentationen werden in Kürze ergänzt.\n\n\n\nFür die Übungen benötigt ihr das pe122 package. Ihr könnt es mit dem folgenden Befehl installieren:\nremotes::install_github(\"pe1-22/pe122\")\n\n\n\n\n\n\nImportantProbleme mit der Installation?\n\n\n\n\n\n\n\nIhr benötigt die Command Line Tools von Xcode. Diese könnt ihr installieren, indem ihr im Terminal den folgenden Befehl ausführt: xcode-select --install. Danach R neu starten und die Installation des pe122 packages erneut versuchen.\n\n\n\nGithub beschränkt manchmal den Zugriff auf Downloads von anonymen Nutzern. Ihr habt mehrere Möglichkeiten, dieses Problem zu umgehen:\n\nversucht es später nochmal.\nerstellt einen kostenlosen Github Account und verbindet diesen mit R, damit ihr als authentifizierter Nutzer keine Beschränkungen habt.\nLadet euch das Package als zip-Datei herunter von Github herunter (grüner Button “Code” &gt; “Download ZIP”). Speichert die Datei in eurem aktuellen Arbeitsverzeichnis. Installiert es manuell mit remotes::install_local(\"dateipfad/package.zip\"). Macht diese Schritte für die folgenden Packages (in dieser Reihenfolge): gradethis, ggcheck, sportsdata, pe122.\n\n\n\n\n\nIm Anschluss könnt ihr die Übung starten, indem ihr folgenden Befehl in R ausführt (hier für Übung 1): learnr::run_tutorial(name = \"01-stat\", package = \"pe122\")\n\n\nEs gibt alle Übungen auch mit KI-Integration. Dabei erhaltet ihr ein KI-generiertes Feedback, immer wenn ihr eine Coding-Aufgabe falsch beantwortet. Um die KI-Integration zu nutzen, müsst ihr folgende zusätzliche Schritte durchführen:\n\nLadet euch Ollama herunter: https://ollama.com/download\nÖffnet Ollama. Erstellt einen kostenlosen Nutzeraccount und verknüpft ihn mit eurem Gerät.\nJetzt sollte alles klappen. Startet die Übung mit KI-Integration, indem ihr folgenden Befehl in R ausführt (hier für Übung 1): learnr::run_tutorial(name = \"01-stat-ai\", package = \"pe122\")\n\n\n\n\n\nDie Materialien findet ihr auf Moodle.",
+    "objectID": "requirements.html#anmeldung",
+    "href": "requirements.html#anmeldung",
+    "title": "Rahmenbedingungen",
+    "section": "Anmeldung",
+    "text": "Anmeldung\nDie Belegung erfolgt regulär über mySpoho innerhalb der LVB-Phasen. Eine Teilnahme auf weißen Schein oder ein Nachrücken in der ersten Semesterwoche ist in der Regel möglich, bitte kontaktiert uns hierzu aber im Vorfeld per E-Mail.",
     "crumbs": [
-      "Lernmaterialien",
-      "Ressourcen"
+      "Informationen zum Modul",
+      "Rahmenbedingungen"
+    ]
+  },
+  {
+    "objectID": "requirements.html#teilnahme",
+    "href": "requirements.html#teilnahme",
+    "title": "Rahmenbedingungen",
+    "section": "Teilnahme",
+    "text": "Teilnahme\nIn den drei Seminarveranstaltungen des Moduls gibt es keine Anwesenheitspflicht. Bei dem Modul handelt es sich um ein Wahlmodul und ihr seid freiwillig hier. Wir versuchen die Einheiten so zu gestalten, dass ihr bestmöglich im Rahmen der Veranstaltung lernen könnt.",
+    "crumbs": [
+      "Informationen zum Modul",
+      "Rahmenbedingungen"
+    ]
+  },
+  {
+    "objectID": "exams.html",
+    "href": "exams.html",
+    "title": "Prüfungen",
+    "section": "",
+    "text": "Im Rahmen des Moduls sind zwei benotete Prüfungen zu absolvieren:\n\nEine Projektpräsentation (5 min Vortrag + 10 min Diskussion) in der die Methodik und Ergebnisse einer selbstständig durchgeführten Datenanalyse in 2er-Teams präsentiert werden.\nAbgabe einer Dokumentation (in Form einer Visualisierung inklusive Code zur Reproduktion).\n\n\n\n\n\n\nAnalyse eines sportbezogenen Datensatzes (aus einer vorgegebenen Auswahl an Datensätzen).\nDie Analyse muss eine Form von Modellierung/statistische Auswertung beeinhalten (über rein deskriptive Statistik hinaus).\nDie Analyseidee, -methodik, und -ergebnisse werden in der letzten Semesterwoche im Rahmen des Seminars präsentiert (5 min Kurzpräsentation + 10 min Diskussion).\ndas Präsentationsformat ist offen (z.B. revealjs, pptx, pdf).\ndie Projekte werden in 2er-Gruppen durchgeführt, wer den Vortrag präsentiert wird unmittelbar vorher ausgewürfelt, die Diskussion wird von beiden Studierenden geführt. Es gibt eine gemeinsame Note.\n\n\n\n\n\nInhalt\nPräsentation\nForm\nDiskussion\nGesamteindruck\n\n\n\n\n\n\n\n\nein sportbezogener Datensatz (anderer als in Projektpräsentation) wird verarbeitet und visualisiert. Die Wahl des Datensatzes ist dabei freigestellt (z.B., Download eines vorhandenen Datensatzes, Webscraping einer Website, eigene Datenerhebung).\nErstellung einer interaktiven Visualisierung (z.B. in Form eines Dashboard).\nAbgabe als reproduzierbares Packages (in Form eines zip-files mit Daten und kommentiertem Code). Der Code soll ohne Fehler auf den Geräten der Dozierenden laufen können und die exakte Visualisierung erstellen.\n\n\n\n\n\nReproduzierbarkeit\nDatenauswahl\nBeachtung der Grundprinzipien von Visualierung (angemesser Plottyp, korrekte Darstellung der Daten, Klarheit, …)\nDer Code wird nicht bewertet",
+    "crumbs": [
+      "Informationen zum Modul",
+      "Prüfungen"
+    ]
+  },
+  {
+    "objectID": "exams.html#modulprüfungen",
+    "href": "exams.html#modulprüfungen",
+    "title": "Prüfungen",
+    "section": "",
+    "text": "Im Rahmen des Moduls sind zwei benotete Prüfungen zu absolvieren:\n\nEine Projektpräsentation (5 min Vortrag + 10 min Diskussion) in der die Methodik und Ergebnisse einer selbstständig durchgeführten Datenanalyse in 2er-Teams präsentiert werden.\nAbgabe einer Dokumentation (in Form einer Visualisierung inklusive Code zur Reproduktion).\n\n\n\n\n\n\nAnalyse eines sportbezogenen Datensatzes (aus einer vorgegebenen Auswahl an Datensätzen).\nDie Analyse muss eine Form von Modellierung/statistische Auswertung beeinhalten (über rein deskriptive Statistik hinaus).\nDie Analyseidee, -methodik, und -ergebnisse werden in der letzten Semesterwoche im Rahmen des Seminars präsentiert (5 min Kurzpräsentation + 10 min Diskussion).\ndas Präsentationsformat ist offen (z.B. revealjs, pptx, pdf).\ndie Projekte werden in 2er-Gruppen durchgeführt, wer den Vortrag präsentiert wird unmittelbar vorher ausgewürfelt, die Diskussion wird von beiden Studierenden geführt. Es gibt eine gemeinsame Note.\n\n\n\n\n\nInhalt\nPräsentation\nForm\nDiskussion\nGesamteindruck\n\n\n\n\n\n\n\n\nein sportbezogener Datensatz (anderer als in Projektpräsentation) wird verarbeitet und visualisiert. Die Wahl des Datensatzes ist dabei freigestellt (z.B., Download eines vorhandenen Datensatzes, Webscraping einer Website, eigene Datenerhebung).\nErstellung einer interaktiven Visualisierung (z.B. in Form eines Dashboard).\nAbgabe als reproduzierbares Packages (in Form eines zip-files mit Daten und kommentiertem Code). Der Code soll ohne Fehler auf den Geräten der Dozierenden laufen können und die exakte Visualisierung erstellen.\n\n\n\n\n\nReproduzierbarkeit\nDatenauswahl\nBeachtung der Grundprinzipien von Visualierung (angemesser Plottyp, korrekte Darstellung der Daten, Klarheit, …)\nDer Code wird nicht bewertet",
+    "crumbs": [
+      "Informationen zum Modul",
+      "Prüfungen"
+    ]
+  },
+  {
+    "objectID": "team.html",
+    "href": "team.html",
+    "title": "Dozierende",
+    "section": "",
+    "text": "Name\nE-Mail\n\n\n\n\n\nBjörn Braunstein\nDozent\nbraunstein[at]dshs-koeln.de\n\n\n\nSimon Nolte\nDozent, Modulleiter\ns.nolte[at]dshs-koeln.de\n\n\n\nRobert Rein\nDozent\nr.rein[at]dshs-koeln.de\n\n\n\nChiara Heisel\nWissenschaftliche Hilfskraft",
+    "crumbs": [
+      "Informationen zum Modul",
+      "Dozierende"
     ]
   }
 ]

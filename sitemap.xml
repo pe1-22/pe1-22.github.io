@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://pe1-22.github.io/requirements.html</loc>
-    <lastmod>2026-05-13T11:43:27.580Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pe1-22.github.io/LICENSE.html</loc>
-    <lastmod>2026-05-13T11:43:27.541Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pe1-22.github.io/schedule.html</loc>
-    <lastmod>2026-05-13T11:43:27.728Z</lastmod>
-  </url>
-  <url>
     <loc>https://pe1-22.github.io/ai.html</loc>
-    <lastmod>2026-05-13T11:43:27.577Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pe1-22.github.io/team.html</loc>
-    <lastmod>2026-05-13T11:43:27.728Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pe1-22.github.io/exams.html</loc>
-    <lastmod>2026-05-13T11:43:27.577Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pe1-22.github.io/datasets.html</loc>
-    <lastmod>2026-05-13T11:43:27.577Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pe1-22.github.io/setup.html</loc>
-    <lastmod>2026-05-13T11:43:27.728Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pe1-22.github.io/index.html</loc>
-    <lastmod>2026-05-13T11:43:27.580Z</lastmod>
-  </url>
-  <url>
-    <loc>https://pe1-22.github.io/goals.html</loc>
-    <lastmod>2026-05-13T11:43:27.577Z</lastmod>
+    <lastmod>2026-05-18T09:16:15.674Z</lastmod>
   </url>
   <url>
     <loc>https://pe1-22.github.io/resources.html</loc>
-    <lastmod>2026-05-13T11:43:27.580Z</lastmod>
+    <lastmod>2026-05-18T09:16:15.676Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pe1-22.github.io/datasets.html</loc>
+    <lastmod>2026-05-18T09:16:15.674Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pe1-22.github.io/index.html</loc>
+    <lastmod>2026-05-18T09:16:15.675Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pe1-22.github.io/LICENSE.html</loc>
+    <lastmod>2026-05-18T09:16:15.640Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pe1-22.github.io/schedule.html</loc>
+    <lastmod>2026-05-18T09:16:15.814Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pe1-22.github.io/goals.html</loc>
+    <lastmod>2026-05-18T09:16:15.674Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pe1-22.github.io/setup.html</loc>
+    <lastmod>2026-05-18T09:16:15.814Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pe1-22.github.io/requirements.html</loc>
+    <lastmod>2026-05-18T09:16:15.676Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pe1-22.github.io/exams.html</loc>
+    <lastmod>2026-05-18T09:16:15.674Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pe1-22.github.io/team.html</loc>
+    <lastmod>2026-05-18T09:16:15.814Z</lastmod>
   </url>
 </urlset>
