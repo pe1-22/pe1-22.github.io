@@ -270,8 +270,8 @@
 </div>
 <div id="tabset-1-2">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href=""></a><span class="co"># bei nur diskreten Prädiktoren funktioniert geom_smooth(method = "lm") nicht, daher konvertieren wir zu numerisch</span></span>
-<span id="cb5-2"><a href=""></a><span class="fu">ggplot</span>(olympics, <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">as.numeric</span>(sex), <span class="at">y =</span> height)) <span class="sc">+</span></span>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href=""></a><span class="co"># bei nur diskreten Prädiktoren funktioniert geom_smooth(method = "lm") nicht, daher konvertieren wir zu numerisch (und rechnen dann -1 damit female = 0)</span></span>
+<span id="cb5-2"><a href=""></a><span class="fu">ggplot</span>(olympics, <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">as.numeric</span>(sex)<span class="sc">-</span><span class="dv">1</span>, <span class="at">y =</span> height)) <span class="sc">+</span></span>
 <span id="cb5-3"><a href=""></a>    <span class="fu">geom_point</span>(<span class="at">alpha =</span> <span class="fl">0.01</span>) <span class="sc">+</span></span>
 <span id="cb5-4"><a href=""></a>    <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>, <span class="at">se =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
