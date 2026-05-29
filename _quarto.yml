@@ -17,6 +17,11 @@ website:
     background: "#1A2833"
     left: |
       &copy; Copyright 2026, Björn Braunstein, Simon Nolte, Robert Rein
+    center:
+      - text: "Impressum"
+        href: impressum.qmd
+      - text: "Privacy"
+        href: privacy.qmd
     right: |
       View source code on [GitHub](https://github.com/pe1-22/pe1-22.github.io)  
 
