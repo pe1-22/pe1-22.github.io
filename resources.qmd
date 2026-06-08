@@ -45,6 +45,7 @@ Im Anschluss könnt ihr die Übung starten, indem ihr folgenden Befehl in R ausf
 Alternativ ist es auch möglich, die Übungen ohne KI-Integration online zu bearbeiten:
 
 -   **Übung 02**: [Online](https://smnnlt.shinyapps.io/02-stat/)
+-   **Übung 03**: [Online](https://smnnlt.shinyapps.io/03-stat/)
 
 
 #### Übungen mit KI-Integration
